@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:int="http://integrationservices.co.za/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <int:getDailyVacationRules>
+         <!--Optional:-->
+         <int:businessGroupName>rbusinessGroupName</int:businessGroupName>
+      </int:getDailyVacationRules>
+   </soapenv:Body>
+</soapenv:Envelope>

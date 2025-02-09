@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:int="http://integrationservices.co.za/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <int:getPublicHolidays>
+         <int:year>ryear</int:year>
+         <!--Optional:-->
+         <int:businessGroupName>rbusinessGroupName</int:businessGroupName>
+      </int:getPublicHolidays>
+   </soapenv:Body>
+</soapenv:Envelope>

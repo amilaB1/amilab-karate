@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:getWBEmpBasicAccess>
+         <!--Optional:-->
+         <tem:employeeNumber>remployeeNumber</tem:employeeNumber>
+      </tem:getWBEmpBasicAccess>
+   </soapenv:Body>
+</soapenv:Envelope>

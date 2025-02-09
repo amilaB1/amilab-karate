@@ -1,0 +1,488 @@
+2023-11-14_19:29:22 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-14_19:29:22 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 HTTPs request
+
+2023-11-14_19:29:22 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-14_19:29:22 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-14_19:29:22 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-14_19:29:22 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://qa.wesbank.co.za
+
+2023-11-14_19:29:22 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/eNatisMotorVehicleQuery/v1
+
+
+2023-11-14_19:29:22 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://wesbank.co.za/bus/vehicle/eNatis/motorVehicleQuery/v1">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v1:MotorVehicleQueryRequest>
+         <!--You have a CHOICE of the next 4 items at this level-->
+         <!--Optional:-->
+         <v1:RegisterNumber>85156007744</v1:RegisterNumber>
+         <!--Optional:-->
+         <v1:VinOrChassis>AHTD0000000000004</v1:VinOrChassis>
+         <!--Optional:-->
+         <v1:EngineNumber></v1:EngineNumber>
+         <!--Optional:-->
+         <v1:LicenceNumber>DJG054K</v1:LicenceNumber>
+      </v1:MotorVehicleQueryRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-14_19:29:23 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+		 #######CAUGHT EXCEPTION IN  METHOD ####### :
+
+
+							javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+2023-11-14_19:29:23 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Failed________________________________________________________________
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : getFinanceProduct
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 HTTPs request
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://qa.wesbank.co.za
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/WebCalculator/CalculatorService/v1
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://v1.webservice.services.wesbank.co.za/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v1:financeProductRequest>
+         <!--Optional:-->
+         <vistaCode>200</vistaCode>
+         <!--Optional:-->
+         <isinsiteid></isinsiteid>
+         <!--Optional:-->
+         <vehiclePrice>3300000</vehiclePrice>
+         <!--Optional:-->
+         <optionPrice>200000</optionPrice>
+      </v1:financeProductRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+		 #######CAUGHT EXCEPTION IN  METHOD ####### :
+
+
+							javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Failed________________________________________________________________
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : getLeasingFinanceQuote
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 HTTPs request
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://qa.wesbank.co.za
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/WebCalculator/CalculatorService/v1
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv_Envelope xmlns_soapenv="http_//schemas.xmlsoap.org/soap/envelope/" xmlns_v1="http_//v1.webservice.services.wesbank.co.za/">
+   <soapenv_Header/>
+   <soapenv_Body>
+      <v1_leasingFinanceQuoteRequest>
+         <!--Optional_-->
+         <vistaCode>200</vistaCode>
+         <!--Optional_-->
+         <productID>AUDIIS01</productID>
+         <!--Optional_-->
+         <isinsiteid>200</isinsiteid>
+         <!--Optional_-->
+         <productType>IS</productType>
+         <term><steps>24|36|48|60|72</steps><value>36</value></term>
+         <mileage></mileage>
+         <!--Optional_-->
+         <interestRate>steps>3.0|3.5|4.0|4.5|5.0|5.5|6.0|6.5|7.0|7.5|8.0|8.5|9.0|9.5|10.0|10.5|11.0</steps><value>5.50</value></interestRate>
+         <!--Optional_-->
+         <deposit>330200</deposit>
+         <!--Optional_-->
+         <balloonPerc>5</balloonPerc>
+         <!--Optional_-->
+         <vehiclePrice>3700000</vehiclePrice>
+         <!--Optional_-->
+         <optionPrice></optionPrice>
+      </v1_leasingFinanceQuoteRequest>
+   </soapenv_Body>
+</soapenv_Envelope>
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+		 #######CAUGHT EXCEPTION IN  METHOD ####### :
+
+
+							javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Failed________________________________________________________________
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : getVehicleLabels
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 HTTPs request
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://qa.wesbank.co.za
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/WebCalculator/CalculatorService/v1
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://v1.webservice.services.wesbank.co.za/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v1:vehicleLabelRequest>
+         <!--Optional:-->
+         <productID>AUDIIS01</productID>
+         <!--Optional:-->
+         <isinsiteid>200</isinsiteid>
+      </v1:vehicleLabelRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+		 #######CAUGHT EXCEPTION IN  METHOD ####### :
+
+
+							javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Failed________________________________________________________________
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchMakes
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 HTTPs request
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://qa.wesbank.co.za
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchMakesRequest/>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+		 #######CAUGHT EXCEPTION IN  METHOD ####### :
+
+
+							javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Failed________________________________________________________________
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchMMCodeByVIN
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 HTTPs request
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://qa.wesbank.co.za
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchMMCodeByVINRequest>
+         <v2:vin>AHTSS22P207140036</v2:vin>
+         <v2:customerIdentity>10044700260</v2:customerIdentity>
+         <!--Optional:-->
+         <v2:licensePlateNumber>XYZ123GP</v2:licensePlateNumber>
+      </v2:FetchMMCodeByVINRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+		 #######CAUGHT EXCEPTION IN  METHOD ####### :
+
+
+							javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Failed________________________________________________________________
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchModels
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 HTTPs request
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://qa.wesbank.co.za
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchModelsRequest>
+         <v2:makeCode>850</v2:makeCode>
+      </v2:FetchModelsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+		 #######CAUGHT EXCEPTION IN  METHOD ####### :
+
+
+							javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Failed________________________________________________________________
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchModelValue
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 HTTPs request
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://qa.wesbank.co.za
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2" xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchModelValueRequest>
+         <!--Optional:-->
+         <v2:make>
+            <!--Optional:-->
+            <veh:categoryCode></veh:categoryCode>
+            <!--Optional:-->
+            <veh:makeCode>600</veh:makeCode>
+            <veh:modelCode>2160</veh:modelCode>
+            <!--Optional:-->
+            <veh:modelDescription>TOYOTA</veh:modelDescription>
+         </v2:make>
+         <!--Optional:-->
+         <v2:model>
+            <!--Optional:-->
+            <veh:categoryCode></veh:categoryCode>
+            <!--Optional:-->
+            <veh:makeCode>600</veh:makeCode>
+            <veh:modelCode>2160</veh:modelCode>
+            <!--Optional:-->
+            <veh:modelDescription>TOYOTA</veh:modelDescription>
+         </v2:model>
+         <!--Optional:-->
+         <v2:year>
+            <!--Optional:-->
+            <veh:categoryCode></veh:categoryCode>
+            <!--Optional:-->
+            <veh:makeCode>600</veh:makeCode>
+            <veh:modelCode>2160</veh:modelCode>
+            <!--Optional:-->
+            <veh:modelDescription>TOYOTA</veh:modelDescription>
+         </v2:year>
+         <!--Optional:-->
+         <v2:carCondition>good</v2:carCondition>
+         <!--Optional:-->
+         <v2:goodsCode></v2:goodsCode>
+         <!--Optional:-->
+         <v2:mileage>50000</v2:mileage>
+      </v2:FetchModelValueRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+		 #######CAUGHT EXCEPTION IN  METHOD ####### :
+
+
+							javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Failed________________________________________________________________
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchModelYears
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 HTTPs request
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://qa.wesbank.co.za
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchModelYearsRequest>
+         <v2:makeCode>600</v2:makeCode>
+         <v2:modelCode>2160</v2:modelCode>
+      </v2:FetchModelYearsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+		 #######CAUGHT EXCEPTION IN  METHOD ####### :
+
+
+							javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+2023-11-14_19:29:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Failed________________________________________________________________
+
+

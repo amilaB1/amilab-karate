@@ -1,0 +1,16 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://wesbank.co.za/bus/vehicle/eNatis/motorVehicleQuery/v1">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v1:MotorVehicleQueryRequest>
+         <!--You have a CHOICE of the next 4 items at this level-->
+         <!--Optional:-->
+         <v1:RegisterNumber>rRegisterNumber</v1:RegisterNumber>
+         <!--Optional:-->
+         <v1:VinOrChassis>rVinOrChassis</v1:VinOrChassis>
+         <!--Optional:-->
+         <v1:EngineNumber>rEngineNumber</v1:EngineNumber>
+         <!--Optional:-->
+         <v1:LicenceNumber>rLicenceNumber</v1:LicenceNumber>
+      </v1:MotorVehicleQueryRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://v1.webservice.services.wesbank.co.za/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v1:financeProductRequest>
+         <!--Optional:-->
+         <vistaCode>rvistaCode</vistaCode>
+         <!--Optional:-->
+         <isinsiteid>risinsiteid</isinsiteid>
+         <!--Optional:-->
+         <vehiclePrice>rvehiclePrice</vehiclePrice>
+         <!--Optional:-->
+         <optionPrice>roptionPrice</optionPrice>
+      </v1:financeProductRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,1314 @@
+2023-10-20_16:39:39 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-10-20_16:39:39 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Sample Request
+
+2023-10-20_16:39:39 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-10-20_16:39:39 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-10-20_16:39:39 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-10-20_16:39:40 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-10-20_16:39:40 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/eNatisMotorVehicleQuery/v1
+
+
+2023-10-20_16:39:40 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://wesbank.co.za/bus/vehicle/eNatis/motorVehicleQuery/v1">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v1:MotorVehicleQueryRequest>
+         <!--You have a CHOICE of the next 4 items at this level-->
+         <!--Optional:-->
+         <v1:RegisterNumber>85156007744</v1:RegisterNumber>
+         <!--Optional:-->
+         <v1:VinOrChassis></v1:VinOrChassis>
+         <!--Optional:-->
+         <v1:EngineNumber></v1:EngineNumber>
+         <!--Optional:-->
+         <v1:LicenceNumber>DJG054K</v1:LicenceNumber>
+      </v1:MotorVehicleQueryRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-10-20_16:39:41 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header><wbh:WBHeader xmlns:wbh="http://www.wesbank.co.za/common/Header/v1_1/WBHeader"><wbh:MessageId>N53ebc04a.584f9d5f.b.18b4d677eda.N7fec</wbh:MessageId><wbh:CorrelationId>N53ebc04a.584f9d5f.b.18b4d677eda.N7fec</wbh:CorrelationId><wbh:ClientId/><wbh:Service/><wbh:Operation/><wbh:Version/><wbh:RequestedTimestamp/><wbh:ResponseTimestamp>2023-10-20T16:39:40.824+02:00</wbh:ResponseTimestamp></wbh:WBHeader></soapenv:Header><S:Body xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><ns2:MotorVehicleQueryResponse xmlns:ns2="http://wesbank.co.za/bus/vehicle/eNatis/motorVehicleQuery/v1"><ns2:executionResult><ns2:successful>false</ns2:successful><ns2:errorMessages><ns2:responsibleField>LicenceNumber</ns2:responsibleField><ns2:errorCode>BE033</ns2:errorCode><ns2:errorDescription>Motor vehicle does not exist</ns2:errorDescription></ns2:errorMessages></ns2:executionResult><ns2:response><ns2:vehicleDetail><veh:description xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:make><veh:code/></veh:make><veh:model><veh:code/></veh:model><veh:year/></veh:description><veh:dimensions xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"/><veh:physicalCharacteristics xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:type/><veh:numberOfDoors/><veh:wheelBase/><veh:axle/><veh:tyreSize><veh:position/><veh:profile/></veh:tyreSize></veh:physicalCharacteristics><veh:weight xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:tare/><veh:grossCurbMass/></veh:weight><veh:engine xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:numberOfCylinders/><veh:torque/></veh:engine><veh:economy xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:capacity/><veh:combinedFuelConsumption/></veh:economy><veh:capability xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:maximumSpeed/><veh:maximumPayload/></veh:capability><veh:terms xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:maintenancePlanDistance/><veh:maintenancePlanTime/><veh:warrantyPeriod/><veh:serviceIntervalDistance/><veh:retailPrice/></veh:terms></ns2:vehicleDetail><ns2:registrationNumber/><ns2:registrationType/></ns2:response></ns2:MotorVehicleQueryResponse></S:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 200
+
+####### RESPONSE TIME  : 1 Second(s)
+
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : getFinanceProduct
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Sample Request
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/WebCalculator/CalculatorService/v1
+
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://v1.webservice.services.wesbank.co.za/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v1:financeProductRequest>
+         <!--Optional:-->
+         <vistaCode>200</vistaCode>
+         <!--Optional:-->
+         <isinsiteid></isinsiteid>
+         <!--Optional:-->
+         <vehiclePrice>3300000</vehiclePrice>
+         <!--Optional:-->
+         <optionPrice>200000</optionPrice>
+      </v1:financeProductRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header><ns0:WBHeader xmlns:ns0="http://www.wesbank.co.za/common/Header/v1_1/WBHeader"><ns0:MessageId>N53ebc04a.3c95d75d.N2c.18b4d866a4c.N7ffb</ns0:MessageId><ns0:CorrelationId>N53ebc04a.3c95d75d.N2c.18b4d866a4c.N7ffb</ns0:CorrelationId><ns0:ClientId/><ns0:BusinessKey/></ns0:WBHeader></soapenv:Header><S:Body xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><ns0:getFinanceProductResponse xmlns:ns0="http://v1.webservice.services.wesbank.co.za/"><products><productID>VWIS01</productID><productType>IS</productType><productName>Instalment Sale</productName><productDescription>This is an agreement between buyer and seller, used to purchase a vehicle, by making payments in installments over an agreed period of time. The buyer is charged interest on the amount of the original price still to be paid, as well as other charges related to granting of credit. Once the finance agreement has been settled, ownership of the vehicle automatically passes to the customer</productDescription><term><steps>24|36|48|60|72</steps><value>72</value></term><interestRate><steps>3.0|18.5|5.25</steps><value>5.50</value></interestRate><deposit><max>3470000</max><min>0</min><value>0</value></deposit><balloonPayment><amount>1050000</amount><steps>0|5|10|15|20|25|30|35|40|45|50|55|60</steps><value>30</value></balloonPayment><adminfee>69</adminfee></products><products><productID>LANDROVER_IS_01</productID><productType>IS</productType><productName>Instalment Sale</productName><productDescription>This is an agreement between buyer and seller, used to purchase a vehicle, by making payments in installments over an agreed period of time. The buyer is charged interest on the amount of the original price still to be paid, as well as other charges related to granting of credit. Once the finance agreement has been settled, ownership of the vehicle automatically passes to the customer</productDescription><term><steps>12|24|36|48|60|72</steps><value>60</value></term><interestRate><steps>3.0|3.5|4.0|4.5|5.0|5.5|6.0|6.5|7.0|7.5|8.0|8.5|9.0|9.5|10.0|10.5|11.0</steps><value>7.00</value></interestRate><deposit><max>3470000</max><min>0</min><value>350000</value></deposit><balloonPayment><amount>0</amount><steps>0|5|10|15|20|25|30|35|40|45|50|55|60</steps><value>0</value></balloonPayment><adminfee>69</adminfee></products><products><productID>WB_LEISURE_IS_01</productID><productType>IS</productType><productName>Instalment Sale</productName><productDescription>This is an agreement between buyer and seller, used to purchase a vehicle, by making payments in installments over an agreed period of time. The buyer is charged interest on the amount of the original price still to be paid, as well as other charges related to granting of credit. Once the finance agreement has been settled, ownership of the vehicle automatically passes to the customer</productDescription><term><steps>12|24|36|48|60|72</steps><value>72</value></term><interestRate><steps>6.0|6.5|7.0|7.5|8.0|8.5|9.0|9.5|10.0</steps><value>8.00</value></interestRate><deposit><max>3470000</max><min>0</min><value>0</value></deposit><balloonPayment><amount>0</amount><steps>0</steps><value>0</value></balloonPayment><adminfee>69</adminfee></products><products><productID>AUDIIS01</productID><productType>IS</productType><productName>Instalment Sale</productName><productDescription>This is an agreement between buyer and seller, used to purchase a vehicle, by making payments in installments over an agreed period of time. The buyer is charged interest on the amount of the original price still to be paid, as well as other charges related to granting of credit. Once the finance agreement has been settled, ownership of the vehicle automatically passes to the customer</productDescription><term><steps>24|36|48|60|72</steps><value>72</value></term><interestRate><steps>3.0|18.5|5.25</steps><value>5.50</value></interestRate><deposit><max>3470000</max><min>0</min><value>0</value></deposit><balloonPayment><amount>1050000</amount><steps>0|5|10|15|20|25|30|35|40|45|50|55|60</steps><value>30</value></balloonPayment><adminfee>69</adminfee></products><products><productID>JAGUAR_IS_01</productID><productType>IS</productType><productName>Instalment Sale</productName><productDescription>This is an agreement between buyer and seller, used to purchase a vehicle, by making payments in installments over an agreed period of time. The buyer is charged interest on the amount of the original price still to be paid, as well as other charges related to granting of credit. Once the finance agreement has been settled, ownership of the vehicle automatically passes to the customer</productDescription><term><steps>12|24|36|48|60|72</steps><value>60</value></term><interestRate><steps>3.0|3.5|4.0|4.5|5.0|5.5|6.0|6.5|7.0|7.5|8.0|8.5|9.0|9.5|10.0|10.5|11.0</steps><value>7.00</value></interestRate><deposit><max>3470000</max><min>0</min><value>350000</value></deposit><balloonPayment><amount>0</amount><steps>0|5|10|15|20|25|30|35|40|45|50|55|60</steps><value>0</value></balloonPayment><adminfee>69</adminfee></products><products><productID>WB_VEHICLE_IS_01</productID><productType>IS</productType><productName>Instalment Sale</productName><productDescription>This is an agreement between buyer and seller, used to purchase a vehicle, by making payments in installments over an agreed period of time. The buyer is charged interest on the amount of the original price still to be paid, as well as other charges related to granting of credit. Once the finance agreement has been settled, ownership of the vehicle automatically passes to the customer</productDescription><term><steps>12|24|36|48|60|72|84|96</steps><value>72</value></term><interestRate><steps>4.0|4.5|5.0|5.5|6.0|6.5|7.0|7.5|8.0|8.5|9.0|9.5|10.0|10.5|11.0</steps><value>7.00</value></interestRate><deposit><max>3470000</max><min>0</min><value>0</value></deposit><balloonPayment><amount>0</amount><steps>0|5|10|15|20|25|30|35|40|45|50|55|60</steps><value>0</value></balloonPayment><adminfee>69</adminfee></products><products><productID>HARLEY_IS_01</productID><productType>IS</productType><productName>Instalment Sale</productName><productDescription>This is an agreement between buyer and seller, used to purchase a vehicle, by making payments in installments over an agreed period of time. The buyer is charged interest on the amount of the original price still to be paid, as well as other charges related to granting of credit. Once the finance agreement has been settled, ownership of the vehicle automatically passes to the customer</productDescription><term><steps>24|36|48|60|72</steps><value>36</value></term><interestRate><steps>3.0|3.5|4.0|4.5|5.0|5.5|6.0|6.5|7.0|7.5|8.0|8.5|9.0|9.5|10.0|10.5|11.0</steps><value>5.50</value></interestRate><deposit><max>3470000</max><min>0</min><value>350000</value></deposit><balloonPayment><amount>0</amount><steps>0|5|10|15|20|25|30|35|40|45|50|55|60</steps><value>0</value></balloonPayment><adminfee>69</adminfee></products><products><productID>NISSAN_IS_01</productID><productType>IS</productType><productName>Instalment Sale</productName><productDescription>This is an agreement between buyer and seller, used to purchase a vehicle, by making payments in installments over an agreed period of time. The buyer is charged interest on the amount of the original price still to be paid, as well as other charges related to granting of credit. Once the finance agreement has been settled, ownership of the vehicle automatically passes to the customer</productDescription><term><steps>24|36|48|60|72</steps><value>36</value></term><interestRate><steps>3.0|3.5|4.0|4.5|5.0|5.5|6.0|6.5|7.0|7.5|8.0|8.5|9.0|9.5|10.0|10.5|11.0</steps><value>5.50</value></interestRate><deposit><max>3470000</max><min>0</min><value>350000</value></deposit><balloonPayment><amount>0</amount><steps>0|5|10|15|20|25|30|35|40|45|50|55|60</steps><value>0</value></balloonPayment><adminfee>69</adminfee></products></ns0:getFinanceProductResponse></S:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 200
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : getLeasingFinanceQuote
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Sample Request
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/WebCalculator/CalculatorService/v1
+
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv_Envelope xmlns_soapenv="http_//schemas.xmlsoap.org/soap/envelope/" xmlns_v1="http_//v1.webservice.services.wesbank.co.za/">
+   <soapenv_Header/>
+   <soapenv_Body>
+      <v1_leasingFinanceQuoteRequest>
+         <!--Optional_-->
+         <vistaCode>200</vistaCode>
+         <!--Optional_-->
+         <productID>AUDIIS01</productID>
+         <!--Optional_-->
+         <isinsiteid>200</isinsiteid>
+         <!--Optional_-->
+         <productType>IS</productType>
+         <term><steps>24|36|48|60|72</steps><value>36</value></term>
+         <mileage></mileage>
+         <!--Optional_-->
+         <interestRate>steps>3.0|3.5|4.0|4.5|5.0|5.5|6.0|6.5|7.0|7.5|8.0|8.5|9.0|9.5|10.0|10.5|11.0</steps><value>5.50</value></interestRate>
+         <!--Optional_-->
+         <deposit>330200</deposit>
+         <!--Optional_-->
+         <balloonPerc>5</balloonPerc>
+         <!--Optional_-->
+         <vehiclePrice>3700000</vehiclePrice>
+         <!--Optional_-->
+         <optionPrice></optionPrice>
+      </v1_leasingFinanceQuoteRequest>
+   </soapenv_Body>
+</soapenv_Envelope>
+
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>OSB-382032: The message must be an instance of: {http://schemas.xmlsoap.org/soap/envelope/}Envelope</faultstring><detail><con:stack-trace xmlns:con="http://www.bea.com/wli/sb/context">com.bea.wli.sb.service.handlerchain.HandlerException: The message must be an instance of: {http://schemas.xmlsoap.org/soap/envelope/}Envelope
+	at com.bea.wli.sb.service.handlerchain.handlers.ComputeOperation$1.getPayload(ComputeOperation.java:204)
+	at com.bea.wli.sb.services.bindinglayer.BindingOperationMapper$QNameMapper.computeOperationName(BindingOperationMapper.java:564)
+	at com.bea.wli.sb.service.handlerchain.handlers.ComputeOperation.dispatch(ComputeOperation.java:93)
+	at com.bea.wli.sb.service.handlerchain.handlers.AbstractHandler.dispatch(AbstractHandler.java:129)
+	at com.bea.wli.sb.service.handlerchain.handlers.InboundMessageContentHandler.dispatch(InboundMessageContentHandler.java:170)
+	at com.bea.wli.sb.service.handlerchain.handlers.AbstractHandler.dispatch(AbstractHandler.java:129)
+	at com.bea.wli.sb.service.handlerchain.handlers.CheckAccessControl.dispatch(CheckAccessControl.java:73)
+	at com.bea.wli.sb.service.handlerchain.handlers.AbstractHandler.dispatch(AbstractHandler.java:129)
+	at com.bea.wli.sb.service.handlerchain.handlers.UpdateInboundTransportStatistics.dispatch(UpdateInboundTransportStatistics.java:64)
+	at com.bea.wli.sb.service.handlerchain.handlers.AbstractHandler.dispatch(AbstractHandler.java:129)
+	at com.bea.wli.sb.service.handlerchain.handlers.AbstractHandler.dispatch(AbstractHandler.java:129)
+	at com.bea.wli.sb.service.handlerchain.handlers.DefaultInboundErrorHandler.dispatch(DefaultInboundErrorHandler.java:44)
+	at com.bea.wli.sb.service.handlerchain.DefaultInboundHandlerChain.dispatch(DefaultInboundHandlerChain.java:135)
+	at com.bea.wli.sb.transports.TransportDispatcherClient.dispatch(TransportDispatcherClient.java:96)
+	at com.bea.wli.sb.transports.TransportManagerImpl.receiveMessage(TransportManagerImpl.java:330)
+	at com.bea.wli.sb.transports.http.generic.RequestHelperBase.invokePipeline(RequestHelperBase.java:253)
+	at com.bea.wli.sb.transports.http.wls.HttpTransportServlet$RequestHelperWLS.invokePipeline(HttpTransportServlet.java:257)
+	at com.bea.wli.sb.transports.http.generic.RequestHelperBase$1.run(RequestHelperBase.java:220)
+	at com.bea.wli.sb.transports.http.generic.RequestHelperBase$1.run(RequestHelperBase.java:216)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:386)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:163)
+	at com.bea.wli.sb.util.security.SecurityUtils.executeAs(SecurityUtils.java:102)
+	at com.bea.wli.sb.transports.http.generic.RequestHelperBase.securedInvoke(RequestHelperBase.java:214)
+	at com.bea.wli.sb.transports.http.generic.RequestHelperBase.service(RequestHelperBase.java:142)
+	at com.bea.wli.sb.transports.http.wls.HttpTransportServlet.service(HttpTransportServlet.java:150)
+	at weblogic.servlet.FutureResponseServlet.service(FutureResponseServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:295)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:260)
+	at weblogic.servlet.internal.StubSecurityHelper.invokeServlet(StubSecurityHelper.java:137)
+	at weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:353)
+	at weblogic.servlet.internal.TailFilter.doFilter(TailFilter.java:25)
+	at weblogic.servlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:78)
+	at com.bea.wli.sb.transports.http.wls.RequestBodyLengthLimitFilter.handleNonChunkedTransfer(RequestBodyLengthLimitFilter.java:137)
+	at com.bea.wli.sb.transports.http.wls.RequestBodyLengthLimitFilter.doFilter(RequestBodyLengthLimitFilter.java:123)
+	at weblogic.servlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:78)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.wrapRun(WebAppServletContext.java:3800)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:3766)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:344)
+	at weblogic.security.service.SecurityManager.runAsForUserCode(SecurityManager.java:197)
+	at weblogic.servlet.provider.WlsSecurityProvider.runAsForUserCode(WlsSecurityProvider.java:203)
+	at weblogic.servlet.provider.WlsSubjectHandle.run(WlsSubjectHandle.java:71)
+	at weblogic.servlet.internal.WebAppServletContext.doSecuredExecute(WebAppServletContext.java:2454)
+	at weblogic.servlet.internal.WebAppServletContext.securedExecute(WebAppServletContext.java:2302)
+	at weblogic.servlet.internal.WebAppServletContext.execute(WebAppServletContext.java:2280)
+	at weblogic.servlet.internal.ServletRequestImpl.runInternal(ServletRequestImpl.java:1739)
+	at weblogic.servlet.internal.ServletRequestImpl.run(ServletRequestImpl.java:1699)
+	at weblogic.servlet.provider.ContainerSupportProviderImpl$WlsRequestExecutor.run(ContainerSupportProviderImpl.java:272)
+	at weblogic.invocation.ComponentInvocationContextManager._runAs(ComponentInvocationContextManager.java:352)
+	at weblogic.invocation.ComponentInvocationContextManager.runAs(ComponentInvocationContextManager.java:337)
+	at weblogic.work.LivePartitionUtility.doRunWorkUnderContext(LivePartitionUtility.java:57)
+	at weblogic.work.PartitionUtility.runWorkUnderContext(PartitionUtility.java:41)
+	at weblogic.work.SelfTuningWorkManagerImpl.runWorkUnderContext(SelfTuningWorkManagerImpl.java:655)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:420)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:360)
+Caused by: com.bea.wli.sb.sources.IOExceptionWithDetails: The message must be an instance of: {http://schemas.xmlsoap.org/soap/envelope/}Envelope
+	at com.bea.wli.sb.sources.StreamingSoapEnvelopeSource.newInvalidEnvelopeException(StreamingSoapEnvelopeSource.java:301)
+	at com.bea.wli.sb.sources.StreamingSoapEnvelopeSource.skipToBodyAndValidateWithStAX(StreamingSoapEnvelopeSource.java:238)
+	at com.bea.wli.sb.sources.StreamingSoapEnvelopeSource.getReader(StreamingSoapEnvelopeSource.java:146)
+	at com.bea.wli.sb.service.handlerchain.handlers.ComputeOperation$1.getPayload(ComputeOperation.java:175)
+	... 54 more
+</con:stack-trace></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 500
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : getVehicleLabels
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Sample Request
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/WebCalculator/CalculatorService/v1
+
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://v1.webservice.services.wesbank.co.za/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v1:vehicleLabelRequest>
+         <!--Optional:-->
+         <productID>AUDIIS01</productID>
+         <!--Optional:-->
+         <isinsiteid>200</isinsiteid>
+      </v1:vehicleLabelRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header><ns0:WBHeader xmlns:ns0="http://www.wesbank.co.za/common/Header/v1_1/WBHeader"><ns0:MessageId>N53ebc049.32b05b3a.N80.18b4d871c23.N8000</ns0:MessageId><ns0:CorrelationId>N53ebc049.32b05b3a.N80.18b4d871c23.N8000</ns0:CorrelationId><ns0:ClientId/><ns0:BusinessKey/></ns0:WBHeader></soapenv:Header><S:Body xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><ns0:getVehicleLabelsResponse xmlns:ns0="http://v1.webservice.services.wesbank.co.za/"><labels><id>d7d50070-5875-11e6-8b77-86f30ca893d3</id><labelValue>vehicle price</labelValue><name>TotalPrice</name><tooltip> price of a vehicle include vat and excluding admin charge\&#13;
+ price of a vehicle include vat and excluding admin charges price of a vehicle include vat and excluding admin charges price of a vehicle include vat and excluding admin charges price of a vehicle include vat and excluding admin charges price of a vehicle include vat and excluding admin charges price of a vehicle include vat and exclud</tooltip><unit> ZAR</unit></labels><labels><id>d7d50071-5875-11e6-8b77-86f30ca893d3</id><labelValue>Vehicle Price excluding extras</labelValue><name>VehiclePrice</name><tooltip>Vehicle base price without optional extra/s costs </tooltip><unit>ZAR</unit></labels><labels><id>d7d50072-5875-11e6-8b77-86f30ca893d3</id><labelValue>Deposit amount</labelValue><name>Deposit</name><tooltip>Initial downpayment made by customer</tooltip><unit>ZAR</unit></labels><labels><id>d7d50073-5875-11e6-8b77-86f30ca893d3</id><labelValue>Term </labelValue><name>Term</name><tooltip>Term of Loan</tooltip><unit>MONTHS</unit></labels><labels><id>d7d50074-5875-11e6-8b77-86f30ca893d3</id><labelValue>Interest Rate</labelValue><name>InterestRate</name><tooltip>Annual interest rate of loan</tooltip><unit>%</unit></labels><labels><id>d7d50075-5875-11e6-8b77-86f30ca893d3</id><labelValue>Balloon Percentage</labelValue><name>BalloonPercentage</name><tooltip>Percentage of lumsum amount that customer agrees to pay at the end of loan term</tooltip><unit>%</unit></labels><labels><id>d7d50076-5875-11e6-8b77-86f30ca893d3</id><labelValue>Balloon Amount</labelValue><name>BalloonAmount</name><tooltip>Pizza, is the greatest invention of man kind.</tooltip><unit>ZAR</unit></labels><labels><id>d7d50077-5875-11e6-8b77-86f30ca893d3</id><labelValue>Monthly Payments of</labelValue><name>Rate</name><tooltip>Installment amount to be paid monthly</tooltip><unit>ZAR</unit></labels><labels><id>d7d50078-5875-11e6-8b77-86f30ca893d3</id><labelValue>Interest Rate Type</labelValue><name>InterestRateType</name><tooltip>A linked interest rate refers to an interest rate that is linked to the prevailing prime interest rate. The monthly installments can increase or decrease depending on whether the prime rate goes up or goes down. A fixed interest rate referes to an interest rate that is fixed at a predetermined rate for a predetermined term.</tooltip></labels><labels><id>d7d50079-5875-11e6-8b77-86f30ca893d3</id><labelValue><![CDATA[<p>All calculations made on calculators supplied on this site, together with rates quoted, are guidelines only and are subject to confirmation at the time of finalising any transactions. All information regarding the products, fees and/or costs which are included in and form a fundamental basis of the calculations are subject to change at any time prior to a final pre-agreement quote being handed to the user.</p><p>The User indemnifies Audi Financial Services  against any loss or liability, which the User may suffer as a result of the use of this calculator. The site and all information and services provided on this site, are provided as is. The information provided on this site should not be treated as professional service of any kind. </p><p>All calculations are subject to credit approval from Audi Financial Services. Instalment includes a initiation fee of R1197 and monthly administration fee of R68.40. Audi Financial Services - a division of Volkswagen Financial Services South Africa (Pty) Ltd. An authorised Financial Services and Credit Provider. NCRCP6635.</p><p>Terms and Conditions apply.</p>]]></labelValue><name>Disclaimer</name></labels><labels><id>d7d50080-5875-11e6-8b77-86f30ca893d3</id><labelValue>Total Cost of Credit</labelValue><name>TotalPayable</name><tooltip>Total amount to be paid over the contract period</tooltip><unit>ZAR</unit></labels><labels><id>d7d50081-5875-11e6-8b77-86f30ca893d3</id><labelValue><![CDATA[<p>All calculations made on calculators supplied on this site, together with rates quoted, are guidelines only and are subject to confirmation at the time of finalising any transactions. All information regarding the products, fees and/or costs which are included in and form a fundamental basis of the calculations are subject to change at any time prior to a final pre-agreement quote being handed to the user.</p><p>The User indemnifies Audi Financial Services  against any loss or liability, which the User may suffer as a result of the use of this calculator. The site and all information and services provided on this site, are provided as is. The information provided on this site should not be treated as professional service of any kind. </p><p>All calculations are subject to credit approval from Audi Financial Services. Instalment includes a initiation fee of R1207.50 and monthly administration fee of R69.00. Audi Financial Services - a division of Volkswagen Financial Services South Africa (Pty) Ltd. An authorised Financial Services and Credit Provider. NCRCP6635.</p><p>Terms and Conditions apply.</p>]]></labelValue><name>CalculationDisclaimer</name></labels><labels><id>d7d50082-5875-11e6-8b77-86f30ca893d3</id><labelValue><![CDATA[<p>All calculations made on calculators supplied on this site, together with rates quoted, are guidelines only and are subject to confirmation at the time of finalising any transactions. All information regarding the products, fees and/or costs which are included in and form a fundamental basis of the calculations are subject to change at any time prior to a final pre-agreement quote being handed to the user.</p><p>The User indemnifies Audi Financial Services  against any loss or liability, which the User may suffer as a result of the use of this calculator. The site and all information and services provided on this site, are provided as is. The information provided on this site should not be treated as professional service of any kind. </p><p>All calculations are subject to credit approval from Audi Financial Services. Instalment includes a initiation fee of R1207.50 and monthly administration fee of R69.00. Audi Financial Services - a division of Volkswagen Financial Services South Africa (Pty) Ltd. An authorised Financial Services and Credit Provider. NCRCP6635.</p><p>Terms and Conditions apply.</p>]]></labelValue><name>GlobalDisclaimer</name></labels><labels><id>d7d50085-5875-11e6-8b77-86f30ca893d3</id><labelValue>Interest Rate Type</labelValue><name>InterestRateType</name><tooltip>A linked interest rate refers to an interest rate that is linked to the prevailing prime interest rate. The monthly instalments can increase or decrease depending on whether the prime rate goes up or goes down. A fixed interest rate referes to an interest rate that is fixed at a predetermined rate for a predetermined term.</tooltip></labels></ns0:getVehicleLabelsResponse></S:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 200
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchMakes
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Sample Request
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-10-20_16:39:42 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchMakesRequest/>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>OSB-380000</faultstring><detail><con:fault xmlns:con="http://www.bea.com/wli/sb/context"><con:errorCode>OSB-380000</con:errorCode><con:location><con:node>RouteNodeFetchMakes</con:node><con:path>response-pipeline</con:path></con:location></con:fault></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 500
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchMMCodeByVIN
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Sample Request
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchMMCodeByVINRequest>
+         <v2:vin>AHTSS22P207140036</v2:vin>
+         <v2:customerIdentity>10044700260</v2:customerIdentity>
+         <!--Optional:-->
+         <v2:licensePlateNumber>XYZ123GP</v2:licensePlateNumber>
+      </v2:FetchMMCodeByVINRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header><wbh:WBHeader xmlns:wbh="http://www.wesbank.co.za/common/Header/v1_1/WBHeader"><wbh:MessageId>N53ebc04a.3c95d75d.N2c.18b4d866a4c.N7ff6</wbh:MessageId><wbh:CorrelationId>N53ebc04a.3c95d75d.N2c.18b4d866a4c.N7ff6</wbh:CorrelationId><wbh:ClientId/><wbh:Service/><wbh:Operation/><wbh:Version/><wbh:RequestedTimestamp/><wbh:ResponseTimestamp>2023-10-20T16:39:42.612+02:00</wbh:ResponseTimestamp></wbh:WBHeader></soapenv:Header><S:Body xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><v2:FetchMMCodeByVINResponse xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2"><v2:errorMessage><v2:errorCode>Yes</v2:errorCode><v2:errorDesc>Match not found</v2:errorDesc></v2:errorMessage></v2:FetchMMCodeByVINResponse></S:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 200
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchModels
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Sample Request
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchModelsRequest>
+         <v2:makeCode>850</v2:makeCode>
+      </v2:FetchModelsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header><wbh:WBHeader xmlns:wbh="http://www.wesbank.co.za/common/Header/v1_1/WBHeader"><wbh:MessageId>N53ebc049.301cac1e.N5a.18b4d871eca.N8000</wbh:MessageId><wbh:CorrelationId>N53ebc049.301cac1e.N5a.18b4d871eca.N8000</wbh:CorrelationId><wbh:ClientId/><wbh:Service/><wbh:Operation/><wbh:Version/><wbh:RequestedTimestamp/><wbh:ResponseTimestamp>2023-10-20T16:39:42.901+02:00</wbh:ResponseTimestamp></wbh:WBHeader></soapenv:Header><S:Body xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><ns1:FetchModelsResponse xmlns:ns1="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2"><ns2:genericResponse xmlns:ns2="http://vehicle.integration.service.wesbank.co.za/"><ns2:status>SUCCESS</ns2:status><ns2:technicalDescription/></ns2:genericResponse><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">01001</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">HUAIHAI IMPI ELECTRIC COMMERCIAL TRIKE</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">08200</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 100 T-8</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">10050</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 110-26</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12100</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 125-2</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12250</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 125-32</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12210</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 125-4</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12050</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 125-43</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">E</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12300</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 125GY-A</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">Q</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12400</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 125ST</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12190</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 125T-30</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12150</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 125T-4</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12160</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 125T-7</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12170</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 125T-8</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">20200</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 200GS</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">E</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">20120</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 200GY-2</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">20125</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 200GY-3</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">E</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">20100</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 200GY-A</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">25180</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 250 GS</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">25200</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 250-5</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">25210</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 250GY-3</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">E</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">05050</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 50GY</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">10060</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS110-45</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12450</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS125 -55</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12320</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS125GS</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12310</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS125GY-3</veh:modelDescription></ns1:details></ns1:FetchModelsResponse></S:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 200
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchModels
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Sample Request
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchModelsRequest>
+         <v2:makeCode>459</v2:makeCode>
+      </v2:FetchModelsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header><wbh:WBHeader xmlns:wbh="http://www.wesbank.co.za/common/Header/v1_1/WBHeader"><wbh:MessageId>N53ebc049.32b05b3a.N7f.18b4d871fcb.N8000</wbh:MessageId><wbh:CorrelationId>N53ebc049.32b05b3a.N7f.18b4d871fcb.N8000</wbh:CorrelationId><wbh:ClientId/><wbh:Service/><wbh:Operation/><wbh:Version/><wbh:RequestedTimestamp/><wbh:ResponseTimestamp>2023-10-20T16:39:43.130+02:00</wbh:ResponseTimestamp></wbh:WBHeader></soapenv:Header><S:Body xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><ns1:FetchModelsResponse xmlns:ns1="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2"><ns2:genericResponse xmlns:ns2="http://vehicle.integration.service.wesbank.co.za/"><ns2:status>SUCCESS</ns2:status><ns2:technicalDescription/></ns2:genericResponse><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">P</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">459</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">40600</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">AERO 8</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">P</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">459</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">40100</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">FOUR FOUR</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">P</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">459</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">40300</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">PLUS 4</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">P</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">459</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">40500</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ROADSTER</veh:modelDescription></ns1:details></ns1:FetchModelsResponse></S:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 200
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchModelValue
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Sample Request
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-10-20_16:39:43 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2" xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchModelValueRequest>
+         <!--Optional:-->
+         <v2:make>
+            <!--Optional:-->
+            <veh:categoryCode></veh:categoryCode>
+            <!--Optional:-->
+            <veh:makeCode>600</veh:makeCode>
+            <veh:modelCode>2160</veh:modelCode>
+            <!--Optional:-->
+            <veh:modelDescription>TOYOTA</veh:modelDescription>
+         </v2:make>
+         <!--Optional:-->
+         <v2:model>
+            <!--Optional:-->
+            <veh:categoryCode></veh:categoryCode>
+            <!--Optional:-->
+            <veh:makeCode>600</veh:makeCode>
+            <veh:modelCode>2160</veh:modelCode>
+            <!--Optional:-->
+            <veh:modelDescription>TOYOTA</veh:modelDescription>
+         </v2:model>
+         <!--Optional:-->
+         <v2:year>
+            <!--Optional:-->
+            <veh:categoryCode></veh:categoryCode>
+            <!--Optional:-->
+            <veh:makeCode>600</veh:makeCode>
+            <veh:modelCode>2160</veh:modelCode>
+            <!--Optional:-->
+            <veh:modelDescription>TOYOTA</veh:modelDescription>
+         </v2:year>
+         <!--Optional:-->
+         <v2:carCondition>good</v2:carCondition>
+         <!--Optional:-->
+         <v2:goodsCode></v2:goodsCode>
+         <!--Optional:-->
+         <v2:mileage>50000</v2:mileage>
+      </v2:FetchModelValueRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-10-20_16:39:44 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header><wbh:WBHeader xmlns:wbh="http://www.wesbank.co.za/common/Header/v1_1/WBHeader"><wbh:MessageId>N53ebc04a.3c95d75d.N2c.18b4d866a4c.N7ff0</wbh:MessageId><wbh:CorrelationId>N53ebc04a.3c95d75d.N2c.18b4d866a4c.N7ff0</wbh:CorrelationId><wbh:ClientId/><wbh:Service/><wbh:Operation/><wbh:Version/><wbh:RequestedTimestamp/><wbh:ResponseTimestamp>2023-10-20T16:39:43.322+02:00</wbh:ResponseTimestamp></wbh:WBHeader></soapenv:Header><S:Body xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><ns6:fetchModelValueResponse xmlns:ns6="http://vehicle.integration.service.wesbank.co.za/" xmlns:ns12="http://v2.webservice.services.wesbank.co.za/"><description>Model Code must be between 1 and 5 characters. Make Code must be between 1 and 3 characters. </description><errorType>BUSINESS</errorType><resultStatus>REJECTED</resultStatus></ns6:fetchModelValueResponse></S:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 200
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-10-20_16:39:44 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-10-20_16:39:44 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchModelYears
+2023-10-20_16:39:44 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Sample Request
+
+2023-10-20_16:39:44 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-10-20_16:39:44 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-10-20_16:39:44 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-10-20_16:39:44 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-10-20_16:39:44 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-10-20_16:39:44 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchModelYearsRequest>
+         <v2:makeCode>600</v2:makeCode>
+         <v2:modelCode>2160</v2:modelCode>
+      </v2:FetchModelYearsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-10-20_16:39:44 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header><wbh:WBHeader xmlns:wbh="http://www.wesbank.co.za/common/Header/v1_1/WBHeader"><wbh:MessageId>N53ebc049.32b05b3a.N7f.18b4d871fcb.N7ff9</wbh:MessageId><wbh:CorrelationId>N53ebc049.32b05b3a.N7f.18b4d871fcb.N7ff9</wbh:CorrelationId><wbh:ClientId/><wbh:Service/><wbh:Operation/><wbh:Version/><wbh:RequestedTimestamp/><wbh:ResponseTimestamp>2023-10-20T16:39:43.772+02:00</wbh:ResponseTimestamp></wbh:WBHeader></soapenv:Header><S:Body xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><ns2:FetchModelYearsResponse xmlns:ns2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2"><ns1:genericResponse xmlns:ns1="http://vehicle.integration.service.wesbank.co.za/"><ns1:status/><ns1:technicalDescription/></ns1:genericResponse><ns1:years xmlns:ns1="http://vehicle.integration.service.wesbank.co.za/"/></ns2:FetchModelYearsResponse></S:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 200
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-10-20_16:39:44 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-10-20_16:39:55 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-10-20_16:39:55 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Sample Request
+
+2023-10-20_16:39:55 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-10-20_16:39:55 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-10-20_16:39:55 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-10-20_16:39:55 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-10-20_16:39:55 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/eNatisMotorVehicleQuery/v1
+
+
+2023-10-20_16:39:55 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://wesbank.co.za/bus/vehicle/eNatis/motorVehicleQuery/v1">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v1:MotorVehicleQueryRequest>
+         <!--You have a CHOICE of the next 4 items at this level-->
+         <!--Optional:-->
+         <v1:RegisterNumber>85156007744</v1:RegisterNumber>
+         <!--Optional:-->
+         <v1:VinOrChassis></v1:VinOrChassis>
+         <!--Optional:-->
+         <v1:EngineNumber></v1:EngineNumber>
+         <!--Optional:-->
+         <v1:LicenceNumber>DJG054K</v1:LicenceNumber>
+      </v1:MotorVehicleQueryRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-10-20_16:39:57 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header><wbh:WBHeader xmlns:wbh="http://www.wesbank.co.za/common/Header/v1_1/WBHeader"><wbh:MessageId>N53ebc049.301cac1e.N59.18b4d875541.N8000</wbh:MessageId><wbh:CorrelationId>N53ebc049.301cac1e.N59.18b4d875541.N8000</wbh:CorrelationId><wbh:ClientId/><wbh:Service/><wbh:Operation/><wbh:Version/><wbh:RequestedTimestamp/><wbh:ResponseTimestamp>2023-10-20T16:39:56.769+02:00</wbh:ResponseTimestamp></wbh:WBHeader></soapenv:Header><S:Body xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><ns2:MotorVehicleQueryResponse xmlns:ns2="http://wesbank.co.za/bus/vehicle/eNatis/motorVehicleQuery/v1"><ns2:executionResult><ns2:successful>false</ns2:successful><ns2:errorMessages><ns2:responsibleField>LicenceNumber</ns2:responsibleField><ns2:errorCode>BE033</ns2:errorCode><ns2:errorDescription>Motor vehicle does not exist</ns2:errorDescription></ns2:errorMessages></ns2:executionResult><ns2:response><ns2:vehicleDetail><veh:description xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:make><veh:code/></veh:make><veh:model><veh:code/></veh:model><veh:year/></veh:description><veh:dimensions xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"/><veh:physicalCharacteristics xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:type/><veh:numberOfDoors/><veh:wheelBase/><veh:axle/><veh:tyreSize><veh:position/><veh:profile/></veh:tyreSize></veh:physicalCharacteristics><veh:weight xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:tare/><veh:grossCurbMass/></veh:weight><veh:engine xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:numberOfCylinders/><veh:torque/></veh:engine><veh:economy xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:capacity/><veh:combinedFuelConsumption/></veh:economy><veh:capability xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:maximumSpeed/><veh:maximumPayload/></veh:capability><veh:terms xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:maintenancePlanDistance/><veh:maintenancePlanTime/><veh:warrantyPeriod/><veh:serviceIntervalDistance/><veh:retailPrice/></veh:terms></ns2:vehicleDetail><ns2:registrationNumber/><ns2:registrationType/></ns2:response></ns2:MotorVehicleQueryResponse></S:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 200
+
+####### RESPONSE TIME  : 1 Second(s)
+
+
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : getFinanceProduct
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Sample Request
+
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/WebCalculator/CalculatorService/v1
+
+
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://v1.webservice.services.wesbank.co.za/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v1:financeProductRequest>
+         <!--Optional:-->
+         <vistaCode>200</vistaCode>
+         <!--Optional:-->
+         <isinsiteid></isinsiteid>
+         <!--Optional:-->
+         <vehiclePrice>3300000</vehiclePrice>
+         <!--Optional:-->
+         <optionPrice>200000</optionPrice>
+      </v1:financeProductRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header><ns0:WBHeader xmlns:ns0="http://www.wesbank.co.za/common/Header/v1_1/WBHeader"><ns0:MessageId>N53ebc04a.584f9d5f.c.18b4d682e17.N7feb</ns0:MessageId><ns0:CorrelationId>N53ebc04a.584f9d5f.c.18b4d682e17.N7feb</ns0:CorrelationId><ns0:ClientId/><ns0:BusinessKey/></ns0:WBHeader></soapenv:Header><S:Body xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><ns0:getFinanceProductResponse xmlns:ns0="http://v1.webservice.services.wesbank.co.za/"><products><productID>VWIS01</productID><productType>IS</productType><productName>Instalment Sale</productName><productDescription>This is an agreement between buyer and seller, used to purchase a vehicle, by making payments in installments over an agreed period of time. The buyer is charged interest on the amount of the original price still to be paid, as well as other charges related to granting of credit. Once the finance agreement has been settled, ownership of the vehicle automatically passes to the customer</productDescription><term><steps>24|36|48|60|72</steps><value>72</value></term><interestRate><steps>3.0|18.5|5.25</steps><value>5.50</value></interestRate><deposit><max>3470000</max><min>0</min><value>0</value></deposit><balloonPayment><amount>1050000</amount><steps>0|5|10|15|20|25|30|35|40|45|50|55|60</steps><value>30</value></balloonPayment><adminfee>69</adminfee></products><products><productID>LANDROVER_IS_01</productID><productType>IS</productType><productName>Instalment Sale</productName><productDescription>This is an agreement between buyer and seller, used to purchase a vehicle, by making payments in installments over an agreed period of time. The buyer is charged interest on the amount of the original price still to be paid, as well as other charges related to granting of credit. Once the finance agreement has been settled, ownership of the vehicle automatically passes to the customer</productDescription><term><steps>12|24|36|48|60|72</steps><value>60</value></term><interestRate><steps>3.0|3.5|4.0|4.5|5.0|5.5|6.0|6.5|7.0|7.5|8.0|8.5|9.0|9.5|10.0|10.5|11.0</steps><value>7.00</value></interestRate><deposit><max>3470000</max><min>0</min><value>350000</value></deposit><balloonPayment><amount>0</amount><steps>0|5|10|15|20|25|30|35|40|45|50|55|60</steps><value>0</value></balloonPayment><adminfee>69</adminfee></products><products><productID>WB_LEISURE_IS_01</productID><productType>IS</productType><productName>Instalment Sale</productName><productDescription>This is an agreement between buyer and seller, used to purchase a vehicle, by making payments in installments over an agreed period of time. The buyer is charged interest on the amount of the original price still to be paid, as well as other charges related to granting of credit. Once the finance agreement has been settled, ownership of the vehicle automatically passes to the customer</productDescription><term><steps>12|24|36|48|60|72</steps><value>72</value></term><interestRate><steps>6.0|6.5|7.0|7.5|8.0|8.5|9.0|9.5|10.0</steps><value>8.00</value></interestRate><deposit><max>3470000</max><min>0</min><value>0</value></deposit><balloonPayment><amount>0</amount><steps>0</steps><value>0</value></balloonPayment><adminfee>69</adminfee></products><products><productID>AUDIIS01</productID><productType>IS</productType><productName>Instalment Sale</productName><productDescription>This is an agreement between buyer and seller, used to purchase a vehicle, by making payments in installments over an agreed period of time. The buyer is charged interest on the amount of the original price still to be paid, as well as other charges related to granting of credit. Once the finance agreement has been settled, ownership of the vehicle automatically passes to the customer</productDescription><term><steps>24|36|48|60|72</steps><value>72</value></term><interestRate><steps>3.0|18.5|5.25</steps><value>5.50</value></interestRate><deposit><max>3470000</max><min>0</min><value>0</value></deposit><balloonPayment><amount>1050000</amount><steps>0|5|10|15|20|25|30|35|40|45|50|55|60</steps><value>30</value></balloonPayment><adminfee>69</adminfee></products><products><productID>JAGUAR_IS_01</productID><productType>IS</productType><productName>Instalment Sale</productName><productDescription>This is an agreement between buyer and seller, used to purchase a vehicle, by making payments in installments over an agreed period of time. The buyer is charged interest on the amount of the original price still to be paid, as well as other charges related to granting of credit. Once the finance agreement has been settled, ownership of the vehicle automatically passes to the customer</productDescription><term><steps>12|24|36|48|60|72</steps><value>60</value></term><interestRate><steps>3.0|3.5|4.0|4.5|5.0|5.5|6.0|6.5|7.0|7.5|8.0|8.5|9.0|9.5|10.0|10.5|11.0</steps><value>7.00</value></interestRate><deposit><max>3470000</max><min>0</min><value>350000</value></deposit><balloonPayment><amount>0</amount><steps>0|5|10|15|20|25|30|35|40|45|50|55|60</steps><value>0</value></balloonPayment><adminfee>69</adminfee></products><products><productID>WB_VEHICLE_IS_01</productID><productType>IS</productType><productName>Instalment Sale</productName><productDescription>This is an agreement between buyer and seller, used to purchase a vehicle, by making payments in installments over an agreed period of time. The buyer is charged interest on the amount of the original price still to be paid, as well as other charges related to granting of credit. Once the finance agreement has been settled, ownership of the vehicle automatically passes to the customer</productDescription><term><steps>12|24|36|48|60|72|84|96</steps><value>72</value></term><interestRate><steps>4.0|4.5|5.0|5.5|6.0|6.5|7.0|7.5|8.0|8.5|9.0|9.5|10.0|10.5|11.0</steps><value>7.00</value></interestRate><deposit><max>3470000</max><min>0</min><value>0</value></deposit><balloonPayment><amount>0</amount><steps>0|5|10|15|20|25|30|35|40|45|50|55|60</steps><value>0</value></balloonPayment><adminfee>69</adminfee></products><products><productID>HARLEY_IS_01</productID><productType>IS</productType><productName>Instalment Sale</productName><productDescription>This is an agreement between buyer and seller, used to purchase a vehicle, by making payments in installments over an agreed period of time. The buyer is charged interest on the amount of the original price still to be paid, as well as other charges related to granting of credit. Once the finance agreement has been settled, ownership of the vehicle automatically passes to the customer</productDescription><term><steps>24|36|48|60|72</steps><value>36</value></term><interestRate><steps>3.0|3.5|4.0|4.5|5.0|5.5|6.0|6.5|7.0|7.5|8.0|8.5|9.0|9.5|10.0|10.5|11.0</steps><value>5.50</value></interestRate><deposit><max>3470000</max><min>0</min><value>350000</value></deposit><balloonPayment><amount>0</amount><steps>0|5|10|15|20|25|30|35|40|45|50|55|60</steps><value>0</value></balloonPayment><adminfee>69</adminfee></products><products><productID>NISSAN_IS_01</productID><productType>IS</productType><productName>Instalment Sale</productName><productDescription>This is an agreement between buyer and seller, used to purchase a vehicle, by making payments in installments over an agreed period of time. The buyer is charged interest on the amount of the original price still to be paid, as well as other charges related to granting of credit. Once the finance agreement has been settled, ownership of the vehicle automatically passes to the customer</productDescription><term><steps>24|36|48|60|72</steps><value>36</value></term><interestRate><steps>3.0|3.5|4.0|4.5|5.0|5.5|6.0|6.5|7.0|7.5|8.0|8.5|9.0|9.5|10.0|10.5|11.0</steps><value>5.50</value></interestRate><deposit><max>3470000</max><min>0</min><value>350000</value></deposit><balloonPayment><amount>0</amount><steps>0|5|10|15|20|25|30|35|40|45|50|55|60</steps><value>0</value></balloonPayment><adminfee>69</adminfee></products></ns0:getFinanceProductResponse></S:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 200
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : getLeasingFinanceQuote
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Sample Request
+
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/WebCalculator/CalculatorService/v1
+
+
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv_Envelope xmlns_soapenv="http_//schemas.xmlsoap.org/soap/envelope/" xmlns_v1="http_//v1.webservice.services.wesbank.co.za/">
+   <soapenv_Header/>
+   <soapenv_Body>
+      <v1_leasingFinanceQuoteRequest>
+         <!--Optional_-->
+         <vistaCode>200</vistaCode>
+         <!--Optional_-->
+         <productID>AUDIIS01</productID>
+         <!--Optional_-->
+         <isinsiteid>200</isinsiteid>
+         <!--Optional_-->
+         <productType>IS</productType>
+         <term><steps>24|36|48|60|72</steps><value>36</value></term>
+         <mileage></mileage>
+         <!--Optional_-->
+         <interestRate>steps>3.0|3.5|4.0|4.5|5.0|5.5|6.0|6.5|7.0|7.5|8.0|8.5|9.0|9.5|10.0|10.5|11.0</steps><value>5.50</value></interestRate>
+         <!--Optional_-->
+         <deposit>330200</deposit>
+         <!--Optional_-->
+         <balloonPerc>5</balloonPerc>
+         <!--Optional_-->
+         <vehiclePrice>3700000</vehiclePrice>
+         <!--Optional_-->
+         <optionPrice></optionPrice>
+      </v1_leasingFinanceQuoteRequest>
+   </soapenv_Body>
+</soapenv_Envelope>
+
+
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>OSB-382032: The message must be an instance of: {http://schemas.xmlsoap.org/soap/envelope/}Envelope</faultstring><detail><con:stack-trace xmlns:con="http://www.bea.com/wli/sb/context">com.bea.wli.sb.service.handlerchain.HandlerException: The message must be an instance of: {http://schemas.xmlsoap.org/soap/envelope/}Envelope
+	at com.bea.wli.sb.service.handlerchain.handlers.ComputeOperation$1.getPayload(ComputeOperation.java:204)
+	at com.bea.wli.sb.services.bindinglayer.BindingOperationMapper$QNameMapper.computeOperationName(BindingOperationMapper.java:564)
+	at com.bea.wli.sb.service.handlerchain.handlers.ComputeOperation.dispatch(ComputeOperation.java:93)
+	at com.bea.wli.sb.service.handlerchain.handlers.AbstractHandler.dispatch(AbstractHandler.java:129)
+	at com.bea.wli.sb.service.handlerchain.handlers.InboundMessageContentHandler.dispatch(InboundMessageContentHandler.java:170)
+	at com.bea.wli.sb.service.handlerchain.handlers.AbstractHandler.dispatch(AbstractHandler.java:129)
+	at com.bea.wli.sb.service.handlerchain.handlers.CheckAccessControl.dispatch(CheckAccessControl.java:73)
+	at com.bea.wli.sb.service.handlerchain.handlers.AbstractHandler.dispatch(AbstractHandler.java:129)
+	at com.bea.wli.sb.service.handlerchain.handlers.UpdateInboundTransportStatistics.dispatch(UpdateInboundTransportStatistics.java:64)
+	at com.bea.wli.sb.service.handlerchain.handlers.AbstractHandler.dispatch(AbstractHandler.java:129)
+	at com.bea.wli.sb.service.handlerchain.handlers.AbstractHandler.dispatch(AbstractHandler.java:129)
+	at com.bea.wli.sb.service.handlerchain.handlers.DefaultInboundErrorHandler.dispatch(DefaultInboundErrorHandler.java:44)
+	at com.bea.wli.sb.service.handlerchain.DefaultInboundHandlerChain.dispatch(DefaultInboundHandlerChain.java:135)
+	at com.bea.wli.sb.transports.TransportDispatcherClient.dispatch(TransportDispatcherClient.java:96)
+	at com.bea.wli.sb.transports.TransportManagerImpl.receiveMessage(TransportManagerImpl.java:330)
+	at com.bea.wli.sb.transports.http.generic.RequestHelperBase.invokePipeline(RequestHelperBase.java:253)
+	at com.bea.wli.sb.transports.http.wls.HttpTransportServlet$RequestHelperWLS.invokePipeline(HttpTransportServlet.java:257)
+	at com.bea.wli.sb.transports.http.generic.RequestHelperBase$1.run(RequestHelperBase.java:220)
+	at com.bea.wli.sb.transports.http.generic.RequestHelperBase$1.run(RequestHelperBase.java:216)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:386)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:163)
+	at com.bea.wli.sb.util.security.SecurityUtils.executeAs(SecurityUtils.java:102)
+	at com.bea.wli.sb.transports.http.generic.RequestHelperBase.securedInvoke(RequestHelperBase.java:214)
+	at com.bea.wli.sb.transports.http.generic.RequestHelperBase.service(RequestHelperBase.java:142)
+	at com.bea.wli.sb.transports.http.wls.HttpTransportServlet.service(HttpTransportServlet.java:150)
+	at weblogic.servlet.FutureResponseServlet.service(FutureResponseServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:295)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:260)
+	at weblogic.servlet.internal.StubSecurityHelper.invokeServlet(StubSecurityHelper.java:137)
+	at weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:353)
+	at weblogic.servlet.internal.TailFilter.doFilter(TailFilter.java:25)
+	at weblogic.servlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:78)
+	at com.bea.wli.sb.transports.http.wls.RequestBodyLengthLimitFilter.handleNonChunkedTransfer(RequestBodyLengthLimitFilter.java:137)
+	at com.bea.wli.sb.transports.http.wls.RequestBodyLengthLimitFilter.doFilter(RequestBodyLengthLimitFilter.java:123)
+	at weblogic.servlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:78)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.wrapRun(WebAppServletContext.java:3800)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:3766)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:344)
+	at weblogic.security.service.SecurityManager.runAsForUserCode(SecurityManager.java:197)
+	at weblogic.servlet.provider.WlsSecurityProvider.runAsForUserCode(WlsSecurityProvider.java:203)
+	at weblogic.servlet.provider.WlsSubjectHandle.run(WlsSubjectHandle.java:71)
+	at weblogic.servlet.internal.WebAppServletContext.doSecuredExecute(WebAppServletContext.java:2454)
+	at weblogic.servlet.internal.WebAppServletContext.securedExecute(WebAppServletContext.java:2302)
+	at weblogic.servlet.internal.WebAppServletContext.execute(WebAppServletContext.java:2280)
+	at weblogic.servlet.internal.ServletRequestImpl.runInternal(ServletRequestImpl.java:1739)
+	at weblogic.servlet.internal.ServletRequestImpl.run(ServletRequestImpl.java:1699)
+	at weblogic.servlet.provider.ContainerSupportProviderImpl$WlsRequestExecutor.run(ContainerSupportProviderImpl.java:272)
+	at weblogic.invocation.ComponentInvocationContextManager._runAs(ComponentInvocationContextManager.java:352)
+	at weblogic.invocation.ComponentInvocationContextManager.runAs(ComponentInvocationContextManager.java:337)
+	at weblogic.work.LivePartitionUtility.doRunWorkUnderContext(LivePartitionUtility.java:57)
+	at weblogic.work.PartitionUtility.runWorkUnderContext(PartitionUtility.java:41)
+	at weblogic.work.SelfTuningWorkManagerImpl.runWorkUnderContext(SelfTuningWorkManagerImpl.java:655)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:420)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:360)
+Caused by: com.bea.wli.sb.sources.IOExceptionWithDetails: The message must be an instance of: {http://schemas.xmlsoap.org/soap/envelope/}Envelope
+	at com.bea.wli.sb.sources.StreamingSoapEnvelopeSource.newInvalidEnvelopeException(StreamingSoapEnvelopeSource.java:301)
+	at com.bea.wli.sb.sources.StreamingSoapEnvelopeSource.skipToBodyAndValidateWithStAX(StreamingSoapEnvelopeSource.java:238)
+	at com.bea.wli.sb.sources.StreamingSoapEnvelopeSource.getReader(StreamingSoapEnvelopeSource.java:146)
+	at com.bea.wli.sb.service.handlerchain.handlers.ComputeOperation$1.getPayload(ComputeOperation.java:175)
+	... 54 more
+</con:stack-trace></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 500
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : getVehicleLabels
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Sample Request
+
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/WebCalculator/CalculatorService/v1
+
+
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://v1.webservice.services.wesbank.co.za/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v1:vehicleLabelRequest>
+         <!--Optional:-->
+         <productID>AUDIIS01</productID>
+         <!--Optional:-->
+         <isinsiteid>200</isinsiteid>
+      </v1:vehicleLabelRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header><ns0:WBHeader xmlns:ns0="http://www.wesbank.co.za/common/Header/v1_1/WBHeader"><ns0:MessageId>N53ebc04a.3c95d75d.N2f.18b4d85c634.N7ffd</ns0:MessageId><ns0:CorrelationId>N53ebc04a.3c95d75d.N2f.18b4d85c634.N7ffd</ns0:CorrelationId><ns0:ClientId/><ns0:BusinessKey/></ns0:WBHeader></soapenv:Header><S:Body xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><ns0:getVehicleLabelsResponse xmlns:ns0="http://v1.webservice.services.wesbank.co.za/"><labels><id>d7d50070-5875-11e6-8b77-86f30ca893d3</id><labelValue>vehicle price</labelValue><name>TotalPrice</name><tooltip> price of a vehicle include vat and excluding admin charge\&#13;
+ price of a vehicle include vat and excluding admin charges price of a vehicle include vat and excluding admin charges price of a vehicle include vat and excluding admin charges price of a vehicle include vat and excluding admin charges price of a vehicle include vat and excluding admin charges price of a vehicle include vat and exclud</tooltip><unit> ZAR</unit></labels><labels><id>d7d50071-5875-11e6-8b77-86f30ca893d3</id><labelValue>Vehicle Price excluding extras</labelValue><name>VehiclePrice</name><tooltip>Vehicle base price without optional extra/s costs </tooltip><unit>ZAR</unit></labels><labels><id>d7d50072-5875-11e6-8b77-86f30ca893d3</id><labelValue>Deposit amount</labelValue><name>Deposit</name><tooltip>Initial downpayment made by customer</tooltip><unit>ZAR</unit></labels><labels><id>d7d50073-5875-11e6-8b77-86f30ca893d3</id><labelValue>Term </labelValue><name>Term</name><tooltip>Term of Loan</tooltip><unit>MONTHS</unit></labels><labels><id>d7d50074-5875-11e6-8b77-86f30ca893d3</id><labelValue>Interest Rate</labelValue><name>InterestRate</name><tooltip>Annual interest rate of loan</tooltip><unit>%</unit></labels><labels><id>d7d50075-5875-11e6-8b77-86f30ca893d3</id><labelValue>Balloon Percentage</labelValue><name>BalloonPercentage</name><tooltip>Percentage of lumsum amount that customer agrees to pay at the end of loan term</tooltip><unit>%</unit></labels><labels><id>d7d50076-5875-11e6-8b77-86f30ca893d3</id><labelValue>Balloon Amount</labelValue><name>BalloonAmount</name><tooltip>Pizza, is the greatest invention of man kind.</tooltip><unit>ZAR</unit></labels><labels><id>d7d50077-5875-11e6-8b77-86f30ca893d3</id><labelValue>Monthly Payments of</labelValue><name>Rate</name><tooltip>Installment amount to be paid monthly</tooltip><unit>ZAR</unit></labels><labels><id>d7d50078-5875-11e6-8b77-86f30ca893d3</id><labelValue>Interest Rate Type</labelValue><name>InterestRateType</name><tooltip>A linked interest rate refers to an interest rate that is linked to the prevailing prime interest rate. The monthly installments can increase or decrease depending on whether the prime rate goes up or goes down. A fixed interest rate referes to an interest rate that is fixed at a predetermined rate for a predetermined term.</tooltip></labels><labels><id>d7d50079-5875-11e6-8b77-86f30ca893d3</id><labelValue><![CDATA[<p>All calculations made on calculators supplied on this site, together with rates quoted, are guidelines only and are subject to confirmation at the time of finalising any transactions. All information regarding the products, fees and/or costs which are included in and form a fundamental basis of the calculations are subject to change at any time prior to a final pre-agreement quote being handed to the user.</p><p>The User indemnifies Audi Financial Services  against any loss or liability, which the User may suffer as a result of the use of this calculator. The site and all information and services provided on this site, are provided as is. The information provided on this site should not be treated as professional service of any kind. </p><p>All calculations are subject to credit approval from Audi Financial Services. Instalment includes a initiation fee of R1197 and monthly administration fee of R68.40. Audi Financial Services - a division of Volkswagen Financial Services South Africa (Pty) Ltd. An authorised Financial Services and Credit Provider. NCRCP6635.</p><p>Terms and Conditions apply.</p>]]></labelValue><name>Disclaimer</name></labels><labels><id>d7d50080-5875-11e6-8b77-86f30ca893d3</id><labelValue>Total Cost of Credit</labelValue><name>TotalPayable</name><tooltip>Total amount to be paid over the contract period</tooltip><unit>ZAR</unit></labels><labels><id>d7d50081-5875-11e6-8b77-86f30ca893d3</id><labelValue><![CDATA[<p>All calculations made on calculators supplied on this site, together with rates quoted, are guidelines only and are subject to confirmation at the time of finalising any transactions. All information regarding the products, fees and/or costs which are included in and form a fundamental basis of the calculations are subject to change at any time prior to a final pre-agreement quote being handed to the user.</p><p>The User indemnifies Audi Financial Services  against any loss or liability, which the User may suffer as a result of the use of this calculator. The site and all information and services provided on this site, are provided as is. The information provided on this site should not be treated as professional service of any kind. </p><p>All calculations are subject to credit approval from Audi Financial Services. Instalment includes a initiation fee of R1207.50 and monthly administration fee of R69.00. Audi Financial Services - a division of Volkswagen Financial Services South Africa (Pty) Ltd. An authorised Financial Services and Credit Provider. NCRCP6635.</p><p>Terms and Conditions apply.</p>]]></labelValue><name>CalculationDisclaimer</name></labels><labels><id>d7d50082-5875-11e6-8b77-86f30ca893d3</id><labelValue><![CDATA[<p>All calculations made on calculators supplied on this site, together with rates quoted, are guidelines only and are subject to confirmation at the time of finalising any transactions. All information regarding the products, fees and/or costs which are included in and form a fundamental basis of the calculations are subject to change at any time prior to a final pre-agreement quote being handed to the user.</p><p>The User indemnifies Audi Financial Services  against any loss or liability, which the User may suffer as a result of the use of this calculator. The site and all information and services provided on this site, are provided as is. The information provided on this site should not be treated as professional service of any kind. </p><p>All calculations are subject to credit approval from Audi Financial Services. Instalment includes a initiation fee of R1207.50 and monthly administration fee of R69.00. Audi Financial Services - a division of Volkswagen Financial Services South Africa (Pty) Ltd. An authorised Financial Services and Credit Provider. NCRCP6635.</p><p>Terms and Conditions apply.</p>]]></labelValue><name>GlobalDisclaimer</name></labels><labels><id>d7d50085-5875-11e6-8b77-86f30ca893d3</id><labelValue>Interest Rate Type</labelValue><name>InterestRateType</name><tooltip>A linked interest rate refers to an interest rate that is linked to the prevailing prime interest rate. The monthly instalments can increase or decrease depending on whether the prime rate goes up or goes down. A fixed interest rate referes to an interest rate that is fixed at a predetermined rate for a predetermined term.</tooltip></labels></ns0:getVehicleLabelsResponse></S:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 200
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-10-20_16:39:58 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchMakes
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Sample Request
+
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchMakesRequest/>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>OSB-380000</faultstring><detail><con:fault xmlns:con="http://www.bea.com/wli/sb/context"><con:errorCode>OSB-380000</con:errorCode><con:location><con:node>RouteNodeFetchMakes</con:node><con:path>response-pipeline</con:path></con:location></con:fault></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 500
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchMMCodeByVIN
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Sample Request
+
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchMMCodeByVINRequest>
+         <v2:vin>AHTSS22P207140036</v2:vin>
+         <v2:customerIdentity>10044700260</v2:customerIdentity>
+         <!--Optional:-->
+         <v2:licensePlateNumber>XYZ123GP</v2:licensePlateNumber>
+      </v2:FetchMMCodeByVINRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header><wbh:WBHeader xmlns:wbh="http://www.wesbank.co.za/common/Header/v1_1/WBHeader"><wbh:MessageId>N53ebc04a.584f9d5f.N4.18b4d5a6675.N7fdd</wbh:MessageId><wbh:CorrelationId>N53ebc04a.584f9d5f.N4.18b4d5a6675.N7fdd</wbh:CorrelationId><wbh:ClientId/><wbh:Service/><wbh:Operation/><wbh:Version/><wbh:RequestedTimestamp/><wbh:ResponseTimestamp>2023-10-20T16:39:58.964+02:00</wbh:ResponseTimestamp></wbh:WBHeader></soapenv:Header><S:Body xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><v2:FetchMMCodeByVINResponse xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2"><v2:errorMessage><v2:errorCode>Yes</v2:errorCode><v2:errorDesc>Match not found</v2:errorDesc></v2:errorMessage></v2:FetchMMCodeByVINResponse></S:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 200
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchModels
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Sample Request
+
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchModelsRequest>
+         <v2:makeCode>850</v2:makeCode>
+      </v2:FetchModelsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header><wbh:WBHeader xmlns:wbh="http://www.wesbank.co.za/common/Header/v1_1/WBHeader"><wbh:MessageId>N53ebc049.301cac1e.N5c.18b4d870d94.N7ffb</wbh:MessageId><wbh:CorrelationId>N53ebc049.301cac1e.N5c.18b4d870d94.N7ffb</wbh:CorrelationId><wbh:ClientId/><wbh:Service/><wbh:Operation/><wbh:Version/><wbh:RequestedTimestamp/><wbh:ResponseTimestamp>2023-10-20T16:39:59.218+02:00</wbh:ResponseTimestamp></wbh:WBHeader></soapenv:Header><S:Body xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><ns1:FetchModelsResponse xmlns:ns1="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2"><ns2:genericResponse xmlns:ns2="http://vehicle.integration.service.wesbank.co.za/"><ns2:status>SUCCESS</ns2:status><ns2:technicalDescription/></ns2:genericResponse><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">01001</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">HUAIHAI IMPI ELECTRIC COMMERCIAL TRIKE</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">08200</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 100 T-8</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">10050</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 110-26</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12100</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 125-2</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12250</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 125-32</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12210</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 125-4</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12050</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 125-43</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">E</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12300</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 125GY-A</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">Q</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12400</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 125ST</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12190</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 125T-30</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12150</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 125T-4</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12160</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 125T-7</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12170</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 125T-8</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">20200</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 200GS</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">E</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">20120</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 200GY-2</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">20125</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 200GY-3</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">E</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">20100</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 200GY-A</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">25180</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 250 GS</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">25200</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 250-5</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">25210</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 250GY-3</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">E</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">05050</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS 50GY</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">10060</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS110-45</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12450</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS125 -55</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12320</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS125GS</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">B</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">850</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">12310</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ZS125GY-3</veh:modelDescription></ns1:details></ns1:FetchModelsResponse></S:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 200
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-10-20_16:39:59 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-10-20_16:40:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchModels
+2023-10-20_16:40:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Sample Request
+
+2023-10-20_16:40:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-10-20_16:40:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-10-20_16:40:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-10-20_16:40:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-10-20_16:40:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-10-20_16:40:00 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchModelsRequest>
+         <v2:makeCode>459</v2:makeCode>
+      </v2:FetchModelsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-10-20_16:40:00 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header><wbh:WBHeader xmlns:wbh="http://www.wesbank.co.za/common/Header/v1_1/WBHeader"><wbh:MessageId>N53ebc04a.3c95d75d.N2d.18b4d86264e.N7ff1</wbh:MessageId><wbh:CorrelationId>N53ebc04a.3c95d75d.N2d.18b4d86264e.N7ff1</wbh:CorrelationId><wbh:ClientId/><wbh:Service/><wbh:Operation/><wbh:Version/><wbh:RequestedTimestamp/><wbh:ResponseTimestamp>2023-10-20T16:39:59.469+02:00</wbh:ResponseTimestamp></wbh:WBHeader></soapenv:Header><S:Body xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><ns1:FetchModelsResponse xmlns:ns1="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2"><ns2:genericResponse xmlns:ns2="http://vehicle.integration.service.wesbank.co.za/"><ns2:status>SUCCESS</ns2:status><ns2:technicalDescription/></ns2:genericResponse><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">P</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">459</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">40600</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">AERO 8</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">P</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">459</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">40100</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">FOUR FOUR</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">P</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">459</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">40300</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">PLUS 4</veh:modelDescription></ns1:details><ns1:details><veh:categoryCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">P</veh:categoryCode><veh:makeCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">459</veh:makeCode><veh:modelCode xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">40500</veh:modelCode><veh:modelDescription xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">ROADSTER</veh:modelDescription></ns1:details></ns1:FetchModelsResponse></S:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 200
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-10-20_16:40:00 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-10-20_16:40:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchModelValue
+2023-10-20_16:40:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Sample Request
+
+2023-10-20_16:40:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-10-20_16:40:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-10-20_16:40:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-10-20_16:40:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-10-20_16:40:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-10-20_16:40:00 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2" xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchModelValueRequest>
+         <!--Optional:-->
+         <v2:make>
+            <!--Optional:-->
+            <veh:categoryCode></veh:categoryCode>
+            <!--Optional:-->
+            <veh:makeCode>600</veh:makeCode>
+            <veh:modelCode>2160</veh:modelCode>
+            <!--Optional:-->
+            <veh:modelDescription>TOYOTA</veh:modelDescription>
+         </v2:make>
+         <!--Optional:-->
+         <v2:model>
+            <!--Optional:-->
+            <veh:categoryCode></veh:categoryCode>
+            <!--Optional:-->
+            <veh:makeCode>600</veh:makeCode>
+            <veh:modelCode>2160</veh:modelCode>
+            <!--Optional:-->
+            <veh:modelDescription>TOYOTA</veh:modelDescription>
+         </v2:model>
+         <!--Optional:-->
+         <v2:year>
+            <!--Optional:-->
+            <veh:categoryCode></veh:categoryCode>
+            <!--Optional:-->
+            <veh:makeCode>600</veh:makeCode>
+            <veh:modelCode>2160</veh:modelCode>
+            <!--Optional:-->
+            <veh:modelDescription>TOYOTA</veh:modelDescription>
+         </v2:year>
+         <!--Optional:-->
+         <v2:carCondition>good</v2:carCondition>
+         <!--Optional:-->
+         <v2:goodsCode></v2:goodsCode>
+         <!--Optional:-->
+         <v2:mileage>50000</v2:mileage>
+      </v2:FetchModelValueRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-10-20_16:40:01 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header><wbh:WBHeader xmlns:wbh="http://www.wesbank.co.za/common/Header/v1_1/WBHeader"><wbh:MessageId>N53ebc049.32b05b3a.7f.18b4d86f3be.N7ff0</wbh:MessageId><wbh:CorrelationId>N53ebc049.32b05b3a.7f.18b4d86f3be.N7ff0</wbh:CorrelationId><wbh:ClientId/><wbh:Service/><wbh:Operation/><wbh:Version/><wbh:RequestedTimestamp/><wbh:ResponseTimestamp>2023-10-20T16:40:00.808+02:00</wbh:ResponseTimestamp></wbh:WBHeader></soapenv:Header><S:Body xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><ns6:fetchModelValueResponse xmlns:ns6="http://vehicle.integration.service.wesbank.co.za/" xmlns:ns12="http://v2.webservice.services.wesbank.co.za/"><description>Model Code must be between 1 and 5 characters. Make Code must be between 1 and 3 characters. </description><errorType>BUSINESS</errorType><resultStatus>REJECTED</resultStatus></ns6:fetchModelValueResponse></S:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 200
+
+####### RESPONSE TIME  : 1 Second(s)
+
+
+2023-10-20_16:40:01 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-10-20_16:40:01 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchModelYears
+2023-10-20_16:40:01 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Sample Request
+
+2023-10-20_16:40:01 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-10-20_16:40:01 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-10-20_16:40:01 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-10-20_16:40:01 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-10-20_16:40:01 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-10-20_16:40:01 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchModelYearsRequest>
+         <v2:makeCode>600</v2:makeCode>
+         <v2:modelCode>2160</v2:modelCode>
+      </v2:FetchModelYearsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-10-20_16:40:02 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header><wbh:WBHeader xmlns:wbh="http://www.wesbank.co.za/common/Header/v1_1/WBHeader"><wbh:MessageId>N53ebc049.301cac1e.N5c.18b4d870d94.N7ff4</wbh:MessageId><wbh:CorrelationId>N53ebc049.301cac1e.N5c.18b4d870d94.N7ff4</wbh:CorrelationId><wbh:ClientId/><wbh:Service/><wbh:Operation/><wbh:Version/><wbh:RequestedTimestamp/><wbh:ResponseTimestamp>2023-10-20T16:40:01.354+02:00</wbh:ResponseTimestamp></wbh:WBHeader></soapenv:Header><S:Body xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><ns2:FetchModelYearsResponse xmlns:ns2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2"><ns1:genericResponse xmlns:ns1="http://vehicle.integration.service.wesbank.co.za/"><ns1:status/><ns1:technicalDescription/></ns1:genericResponse><ns1:years xmlns:ns1="http://vehicle.integration.service.wesbank.co.za/"/></ns2:FetchModelYearsResponse></S:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 200
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-10-20_16:40:02 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+

@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:getMyAccessEmployeesOnLeavePerDate>
+         <!--Optional:-->
+         <tem:queryDate>rqueryDate</tem:queryDate>
+      </tem:getMyAccessEmployeesOnLeavePerDate>
+   </soapenv:Body>
+</soapenv:Envelope>

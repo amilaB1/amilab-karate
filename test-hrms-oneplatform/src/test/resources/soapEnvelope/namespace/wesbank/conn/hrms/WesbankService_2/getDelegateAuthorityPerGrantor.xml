@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:getDelegateAuthorityPerGrantor>
+         <!--Optional:-->
+         <tem:grantor>rgrantor</tem:grantor>
+      </tem:getDelegateAuthorityPerGrantor>
+   </soapenv:Body>
+</soapenv:Envelope>

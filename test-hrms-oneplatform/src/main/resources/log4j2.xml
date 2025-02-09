@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="trace">
+    <Properties>
+        <Property name="basePath">C:\things</Property>
+    </Properties>
+ 
+    <Appenders>
+        <RollingFile name="Utilities.iLogger" fileName="${basePath}/Log.log" filePattern="${basePath}/Log-%d{yyyy-MM-ddHHmmss}.log">
+            <PatternLayout>
+                <pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss} [%t] %c{1} - %msg%n</pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="10" modulate="true" />
+                
+            </Policies>
+		</RollingFile>  
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout   pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n" />
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root>
+            
+        <appender-ref ref="Utilities.iLogger" level="trace"/><appender-ref
+        	ref="console" level="trace">
+</appender-ref></Root>
+    </Loggers>
+</Configuration>

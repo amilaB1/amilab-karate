@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:int="http://integrationservices.co.za/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <int:getWBRecruitmentDetailsByIDByID>
+         <!--Optional:-->
+         <int:idNumber>ridNumber</int:idNumber>
+      </int:getWBRecruitmentDetailsByIDByID>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:int="http://integrationservices.co.za/">
+<soapenv:Header>
+<wbh:WBHeader xmlns:wbh="http://www.wesbank.co.za/common/Header/v1_1/WBHeader">
+<wbh:CorrelationId>SOA_OSB_WORKDAY</wbh:CorrelationId>
+</wbh:WBHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <int:getEmployeePDPInformation>
+         <!--Optional:-->
+         <int:employeeNumber>remployeeNumber</int:employeeNumber>
+      </int:getEmployeePDPInformation>
+   </soapenv:Body>
+</soapenv:Envelope>

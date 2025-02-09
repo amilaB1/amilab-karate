@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:int="http://integrationservices.co.za/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <int:getTerminatedEmployeesList>
+         <!--Optional:-->
+         <int:fromDate>rfromDate</int:fromDate>
+         <int:numberOfMonths>rnumberOfMonths</int:numberOfMonths>
+         <!--Optional:-->
+         <int:businessGroupName>rbusinessGroupName</int:businessGroupName>
+      </int:getTerminatedEmployeesList>
+   </soapenv:Body>
+</soapenv:Envelope>

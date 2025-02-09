@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:int="http://integrationservices.co.za/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <int:getEventDataISS>
+         <int:eventType>reventType</int:eventType>
+         <!--Optional:-->
+         <int:runDate>rrunDate</int:runDate>
+      </int:getEventDataISS>
+   </soapenv:Body>
+</soapenv:Envelope>

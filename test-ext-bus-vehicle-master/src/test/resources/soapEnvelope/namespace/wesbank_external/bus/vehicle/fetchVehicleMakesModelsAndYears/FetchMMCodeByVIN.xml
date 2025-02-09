@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchMMCodeByVINRequest>
+         <v2:vin>rvin</v2:vin>
+         <v2:customerIdentity>rcustomerIdentity</v2:customerIdentity>
+         <!--Optional:-->
+         <v2:licensePlateNumber>rlicensePlateNumber</v2:licensePlateNumber>
+      </v2:FetchMMCodeByVINRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

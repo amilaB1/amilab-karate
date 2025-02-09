@@ -1,0 +1,14 @@
+Feature: Generic
+  This is a generic feature file that can be used to test multiple XML features.
+
+  Scenario Outline: Basic XML SOAP request & response.
+    Given HRMS_Services ( <serviceName> ) service is up and running
+
+    Examples: 
+      | serviceName                  |
+      
+      
+      | "getAllEmployeesOnLeave10"   |
+      | "getEmployeesOnLeavePerDate" |
+      | "getLeaveEntryForEmployee"   |
+      | "getLeaveForEmployee"        |

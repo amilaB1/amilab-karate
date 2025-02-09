@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:int="http://integrationservices.co.za/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <int:getWBMyAccessOrgs>
+         <!--Optional:-->
+         <int:orgName>rorgName</int:orgName>
+      </int:getWBMyAccessOrgs>
+   </soapenv:Body>
+</soapenv:Envelope>

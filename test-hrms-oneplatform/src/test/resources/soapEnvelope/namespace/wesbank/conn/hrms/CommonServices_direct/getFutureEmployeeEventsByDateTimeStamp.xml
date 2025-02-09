@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:int="http://integrationservices.co.za/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <int:getFutureEmployeeEventsByDateTimeStamp>
+         <!--Optional:-->
+         <int:runDate>rrunDate</int:runDate>
+      </int:getFutureEmployeeEventsByDateTimeStamp>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,2015 @@
+2023-11-16_11:20:13 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_11:20:13 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 request
+
+2023-11-16_11:20:13 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_11:20:13 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_11:20:13 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_11:20:14 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : http://qa.wesbank.co.za
+
+2023-11-16_11:20:14 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/eNatisMotorVehicleQuery/v1
+
+
+2023-11-16_11:20:14 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://wesbank.co.za/bus/vehicle/eNatis/motorVehicleQuery/v1">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v1:MotorVehicleQueryRequest>
+         <!--You have a CHOICE of the next 4 items at this level-->
+         <!--Optional:-->
+         <v1:RegisterNumber>85156007744</v1:RegisterNumber>
+         <!--Optional:-->
+         <v1:VinOrChassis>AHTD0000000000004</v1:VinOrChassis>
+         <!--Optional:-->
+         <v1:EngineNumber></v1:EngineNumber>
+         <!--Optional:-->
+         <v1:LicenceNumber>DJG054K</v1:LicenceNumber>
+      </v1:MotorVehicleQueryRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_11:20:16 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<html><head><title>302 Moved Temporarily</title></head>
+<body bgcolor="#FFFFFF">
+<p>This document you requested has moved 
+temporarily.</p>
+<p>It's now at <a href="https://qa.wesbank.co.za:8018/wesbank_external/bus/vehicle/eNatisMotorVehicleQuery/v1">https://qa.wesbank.co.za:8018/wesbank_external/bus/vehicle/eNatisMotorVehicleQuery/v1</a>.</p>
+</body></html>
+
+
+
+####### RESPONSE CODE  : 302
+
+####### RESPONSE TIME  : 1 Second(s)
+
+
+2023-11-16_11:20:16 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-11-16_11:20:16 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_11:20:16 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_11:20:16 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_11:20:16 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_11:20:16 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_11:20:16 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_11:20:16 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_11:20:16 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_11:20:16 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_11:20:16 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_11:20:16 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_11:20:16 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_11:20:16 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_11:20:16 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_11:20:16 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_11:20:16 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_11:20:16 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_11:20:16 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_11:20:16 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_11:20:16 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_11:20:16 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_11:20:16 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_11:20:16 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_11:20:16 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_11:20:16 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_11:20:16 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_11:20:16 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_11:20:16 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchMakes
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 request
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : http://qa.wesbank.co.za
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchMakesRequest/>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<html><head><title>302 Moved Temporarily</title></head>
+<body bgcolor="#FFFFFF">
+<p>This document you requested has moved 
+temporarily.</p>
+<p>It's now at <a href="https://qa.wesbank.co.za:8020/wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2">https://qa.wesbank.co.za:8020/wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2</a>.</p>
+</body></html>
+
+
+
+####### RESPONSE CODE  : 302
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchMMCodeByVIN
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 request
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : http://qa.wesbank.co.za
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchMMCodeByVINRequest>
+         <v2:vin>AHTSS22P207140036</v2:vin>
+         <v2:customerIdentity>10044700260</v2:customerIdentity>
+         <!--Optional:-->
+         <v2:licensePlateNumber>XYZ123GP</v2:licensePlateNumber>
+      </v2:FetchMMCodeByVINRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<html><head><title>302 Moved Temporarily</title></head>
+<body bgcolor="#FFFFFF">
+<p>This document you requested has moved 
+temporarily.</p>
+<p>It's now at <a href="https://qa.wesbank.co.za:8018/wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2">https://qa.wesbank.co.za:8018/wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2</a>.</p>
+</body></html>
+
+
+
+####### RESPONSE CODE  : 302
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchModels
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 request
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : http://qa.wesbank.co.za
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchModelsRequest>
+         <v2:makeCode>850</v2:makeCode>
+      </v2:FetchModelsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<html><head><title>302 Moved Temporarily</title></head>
+<body bgcolor="#FFFFFF">
+<p>This document you requested has moved 
+temporarily.</p>
+<p>It's now at <a href="https://qa.wesbank.co.za:8020/wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2">https://qa.wesbank.co.za:8020/wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2</a>.</p>
+</body></html>
+
+
+
+####### RESPONSE CODE  : 302
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchModelValue
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 request
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : http://qa.wesbank.co.za
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2" xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchModelValueRequest>
+         <!--Optional:-->
+         <v2:make>
+            <!--Optional:-->
+            <veh:categoryCode></veh:categoryCode>
+            <!--Optional:-->
+            <veh:makeCode>600</veh:makeCode>
+            <veh:modelCode>2160</veh:modelCode>
+            <!--Optional:-->
+            <veh:modelDescription>TOYOTA</veh:modelDescription>
+         </v2:make>
+         <!--Optional:-->
+         <v2:model>
+            <!--Optional:-->
+            <veh:categoryCode></veh:categoryCode>
+            <!--Optional:-->
+            <veh:makeCode>600</veh:makeCode>
+            <veh:modelCode>2160</veh:modelCode>
+            <!--Optional:-->
+            <veh:modelDescription>TOYOTA</veh:modelDescription>
+         </v2:model>
+         <!--Optional:-->
+         <v2:year>
+            <!--Optional:-->
+            <veh:categoryCode></veh:categoryCode>
+            <!--Optional:-->
+            <veh:makeCode>600</veh:makeCode>
+            <veh:modelCode>2160</veh:modelCode>
+            <!--Optional:-->
+            <veh:modelDescription>TOYOTA</veh:modelDescription>
+         </v2:year>
+         <!--Optional:-->
+         <v2:carCondition>good</v2:carCondition>
+         <!--Optional:-->
+         <v2:goodsCode></v2:goodsCode>
+         <!--Optional:-->
+         <v2:mileage>50000</v2:mileage>
+      </v2:FetchModelValueRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<html><head><title>302 Moved Temporarily</title></head>
+<body bgcolor="#FFFFFF">
+<p>This document you requested has moved 
+temporarily.</p>
+<p>It's now at <a href="https://qa.wesbank.co.za:8018/wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2">https://qa.wesbank.co.za:8018/wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2</a>.</p>
+</body></html>
+
+
+
+####### RESPONSE CODE  : 302
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchModelYears
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 request
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : http://qa.wesbank.co.za
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchModelYearsRequest>
+         <v2:makeCode>600</v2:makeCode>
+         <v2:modelCode>2160</v2:modelCode>
+      </v2:FetchModelYearsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<html><head><title>302 Moved Temporarily</title></head>
+<body bgcolor="#FFFFFF">
+<p>This document you requested has moved 
+temporarily.</p>
+<p>It's now at <a href="https://qa.wesbank.co.za:8020/wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2">https://qa.wesbank.co.za:8020/wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2</a>.</p>
+</body></html>
+
+
+
+####### RESPONSE CODE  : 302
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-11-16_11:20:17 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-11-16_11:21:21 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_11:21:21 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 request
+
+2023-11-16_11:21:21 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_11:21:21 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_11:21:21 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_11:21:21 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://qa.wesbank.co.za
+
+2023-11-16_11:21:21 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/eNatisMotorVehicleQuery/v1
+
+
+2023-11-16_11:21:21 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://wesbank.co.za/bus/vehicle/eNatis/motorVehicleQuery/v1">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v1:MotorVehicleQueryRequest>
+         <!--You have a CHOICE of the next 4 items at this level-->
+         <!--Optional:-->
+         <v1:RegisterNumber>85156007744</v1:RegisterNumber>
+         <!--Optional:-->
+         <v1:VinOrChassis>AHTD0000000000004</v1:VinOrChassis>
+         <!--Optional:-->
+         <v1:EngineNumber></v1:EngineNumber>
+         <!--Optional:-->
+         <v1:LicenceNumber>DJG054K</v1:LicenceNumber>
+      </v1:MotorVehicleQueryRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_11:21:23 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+		 #######CAUGHT EXCEPTION IN  METHOD ####### :
+
+
+							javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+2023-11-16_11:21:23 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Failed________________________________________________________________
+
+
+2023-11-16_11:21:23 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchMakes
+2023-11-16_11:21:23 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 request
+
+2023-11-16_11:21:23 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_11:21:23 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_11:21:23 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_11:21:23 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://qa.wesbank.co.za
+
+2023-11-16_11:21:23 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-16_11:21:23 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchMakesRequest/>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_11:21:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+		 #######CAUGHT EXCEPTION IN  METHOD ####### :
+
+
+							javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+2023-11-16_11:21:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Failed________________________________________________________________
+
+
+2023-11-16_11:21:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchMMCodeByVIN
+2023-11-16_11:21:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 request
+
+2023-11-16_11:21:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_11:21:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_11:21:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_11:21:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://qa.wesbank.co.za
+
+2023-11-16_11:21:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-16_11:21:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchMMCodeByVINRequest>
+         <v2:vin>AHTSS22P207140036</v2:vin>
+         <v2:customerIdentity>10044700260</v2:customerIdentity>
+         <!--Optional:-->
+         <v2:licensePlateNumber>XYZ123GP</v2:licensePlateNumber>
+      </v2:FetchMMCodeByVINRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_11:21:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+		 #######CAUGHT EXCEPTION IN  METHOD ####### :
+
+
+							javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+2023-11-16_11:21:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Failed________________________________________________________________
+
+
+2023-11-16_11:21:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchModels
+2023-11-16_11:21:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 request
+
+2023-11-16_11:21:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_11:21:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_11:21:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_11:21:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://qa.wesbank.co.za
+
+2023-11-16_11:21:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-16_11:21:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchModelsRequest>
+         <v2:makeCode>850</v2:makeCode>
+      </v2:FetchModelsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_11:21:25 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+		 #######CAUGHT EXCEPTION IN  METHOD ####### :
+
+
+							javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+2023-11-16_11:21:25 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Failed________________________________________________________________
+
+
+2023-11-16_11:21:25 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchModelValue
+2023-11-16_11:21:25 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 request
+
+2023-11-16_11:21:25 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_11:21:25 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_11:21:25 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_11:21:25 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://qa.wesbank.co.za
+
+2023-11-16_11:21:25 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-16_11:21:25 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2" xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchModelValueRequest>
+         <!--Optional:-->
+         <v2:make>
+            <!--Optional:-->
+            <veh:categoryCode></veh:categoryCode>
+            <!--Optional:-->
+            <veh:makeCode>600</veh:makeCode>
+            <veh:modelCode>2160</veh:modelCode>
+            <!--Optional:-->
+            <veh:modelDescription>TOYOTA</veh:modelDescription>
+         </v2:make>
+         <!--Optional:-->
+         <v2:model>
+            <!--Optional:-->
+            <veh:categoryCode></veh:categoryCode>
+            <!--Optional:-->
+            <veh:makeCode>600</veh:makeCode>
+            <veh:modelCode>2160</veh:modelCode>
+            <!--Optional:-->
+            <veh:modelDescription>TOYOTA</veh:modelDescription>
+         </v2:model>
+         <!--Optional:-->
+         <v2:year>
+            <!--Optional:-->
+            <veh:categoryCode></veh:categoryCode>
+            <!--Optional:-->
+            <veh:makeCode>600</veh:makeCode>
+            <veh:modelCode>2160</veh:modelCode>
+            <!--Optional:-->
+            <veh:modelDescription>TOYOTA</veh:modelDescription>
+         </v2:year>
+         <!--Optional:-->
+         <v2:carCondition>good</v2:carCondition>
+         <!--Optional:-->
+         <v2:goodsCode></v2:goodsCode>
+         <!--Optional:-->
+         <v2:mileage>50000</v2:mileage>
+      </v2:FetchModelValueRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_11:21:25 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+		 #######CAUGHT EXCEPTION IN  METHOD ####### :
+
+
+							javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+2023-11-16_11:21:25 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Failed________________________________________________________________
+
+
+2023-11-16_11:21:25 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchModelYears
+2023-11-16_11:21:25 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 request
+
+2023-11-16_11:21:25 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_11:21:25 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_11:21:25 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_11:21:25 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://qa.wesbank.co.za
+
+2023-11-16_11:21:25 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-16_11:21:25 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchModelYearsRequest>
+         <v2:makeCode>600</v2:makeCode>
+         <v2:modelCode>2160</v2:modelCode>
+      </v2:FetchModelYearsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_11:21:25 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+		 #######CAUGHT EXCEPTION IN  METHOD ####### :
+
+
+							javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+2023-11-16_11:21:25 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Failed________________________________________________________________
+
+
+2023-11-16_11:34:05 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_11:34:05 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 request
+
+2023-11-16_11:34:05 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_11:34:05 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_11:34:05 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_11:34:05 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://qa.wesbank.co.za
+
+2023-11-16_11:34:05 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/eNatisMotorVehicleQuery/v1
+
+
+2023-11-16_11:34:05 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://wesbank.co.za/bus/vehicle/eNatis/motorVehicleQuery/v1">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v1:MotorVehicleQueryRequest>
+         <!--You have a CHOICE of the next 4 items at this level-->
+         <!--Optional:-->
+         <v1:RegisterNumber>85156007744</v1:RegisterNumber>
+         <!--Optional:-->
+         <v1:VinOrChassis>AHTD0000000000004</v1:VinOrChassis>
+         <!--Optional:-->
+         <v1:EngineNumber></v1:EngineNumber>
+         <!--Optional:-->
+         <v1:LicenceNumber>DJG054K</v1:LicenceNumber>
+      </v1:MotorVehicleQueryRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_11:34:08 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+		 #######CAUGHT EXCEPTION IN  METHOD ####### :
+
+
+							javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+2023-11-16_11:34:08 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Failed________________________________________________________________
+
+
+2023-11-16_12:56:55 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_12:56:55 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 request
+
+2023-11-16_12:56:55 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_12:56:55 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_12:56:55 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_12:56:55 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://qa.wesbank.co.za:443
+
+2023-11-16_12:56:55 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/eNatisMotorVehicleQuery/v1
+
+
+2023-11-16_12:56:55 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://wesbank.co.za/bus/vehicle/eNatis/motorVehicleQuery/v1">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v1:MotorVehicleQueryRequest>
+         <!--You have a CHOICE of the next 4 items at this level-->
+         <!--Optional:-->
+         <v1:RegisterNumber>85156007744</v1:RegisterNumber>
+         <!--Optional:-->
+         <v1:VinOrChassis>AHTD0000000000004</v1:VinOrChassis>
+         <!--Optional:-->
+         <v1:EngineNumber></v1:EngineNumber>
+         <!--Optional:-->
+         <v1:LicenceNumber>DJG054K</v1:LicenceNumber>
+      </v1:MotorVehicleQueryRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_12:56:57 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+		 #######CAUGHT EXCEPTION IN  METHOD ####### :
+
+
+							javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+2023-11-16_12:56:58 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Failed________________________________________________________________
+
+
+2023-11-16_15:49:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_15:49:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 request
+
+2023-11-16_15:49:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_15:49:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_15:49:43 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_15:49:44 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://qa.wesbank.co.za
+
+2023-11-16_15:49:44 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/eNatisMotorVehicleQuery/v1
+
+
+2023-11-16_15:49:44 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://wesbank.co.za/bus/vehicle/eNatis/motorVehicleQuery/v1">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v1:MotorVehicleQueryRequest>
+         <!--You have a CHOICE of the next 4 items at this level-->
+         <!--Optional:-->
+         <v1:RegisterNumber>85156007744</v1:RegisterNumber>
+         <!--Optional:-->
+         <v1:VinOrChassis>AHTD0000000000004</v1:VinOrChassis>
+         <!--Optional:-->
+         <v1:EngineNumber></v1:EngineNumber>
+         <!--Optional:-->
+         <v1:LicenceNumber>DJG054K</v1:LicenceNumber>
+      </v1:MotorVehicleQueryRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_15:49:46 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+		 #######CAUGHT EXCEPTION IN  METHOD ####### :
+
+
+							javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+2023-11-16_15:49:46 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Failed________________________________________________________________
+
+
+2023-11-16_15:50:57 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_15:50:57 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 request
+
+2023-11-16_15:50:57 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_15:50:57 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_15:50:57 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_15:50:57 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-11-16_15:50:57 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/eNatisMotorVehicleQuery/v1
+
+
+2023-11-16_15:50:57 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://wesbank.co.za/bus/vehicle/eNatis/motorVehicleQuery/v1">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v1:MotorVehicleQueryRequest>
+         <!--You have a CHOICE of the next 4 items at this level-->
+         <!--Optional:-->
+         <v1:RegisterNumber>85156007744</v1:RegisterNumber>
+         <!--Optional:-->
+         <v1:VinOrChassis>AHTD0000000000004</v1:VinOrChassis>
+         <!--Optional:-->
+         <v1:EngineNumber></v1:EngineNumber>
+         <!--Optional:-->
+         <v1:LicenceNumber>DJG054K</v1:LicenceNumber>
+      </v1:MotorVehicleQueryRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_15:50:59 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header><wbh:WBHeader xmlns:wbh="http://www.wesbank.co.za/common/Header/v1_1/WBHeader"><wbh:MessageId>N53ebc04a.73466254.N2d.18bd8657d5a.N7fe7</wbh:MessageId><wbh:CorrelationId>N53ebc04a.73466254.N2d.18bd8657d5a.N7fe7</wbh:CorrelationId><wbh:ClientId/><wbh:Service/><wbh:Operation/><wbh:Version/><wbh:RequestedTimestamp/><wbh:ResponseTimestamp>2023-11-16T15:50:58.838+02:00</wbh:ResponseTimestamp></wbh:WBHeader></soapenv:Header><S:Body xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><ns2:MotorVehicleQueryResponse xmlns:ns2="http://wesbank.co.za/bus/vehicle/eNatis/motorVehicleQuery/v1"><ns2:executionResult><ns2:successful>false</ns2:successful><ns2:errorMessages><ns2:responsibleField>LicenceNumber</ns2:responsibleField><ns2:errorCode>BE033</ns2:errorCode><ns2:errorDescription>Motor vehicle does not exist</ns2:errorDescription></ns2:errorMessages></ns2:executionResult><ns2:response><ns2:vehicleDetail><veh:description xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:make><veh:code/></veh:make><veh:model><veh:code/></veh:model><veh:year/></veh:description><veh:dimensions xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"/><veh:physicalCharacteristics xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:type/><veh:numberOfDoors/><veh:wheelBase/><veh:axle/><veh:tyreSize><veh:position/><veh:profile/></veh:tyreSize></veh:physicalCharacteristics><veh:weight xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:tare/><veh:grossCurbMass/></veh:weight><veh:engine xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:numberOfCylinders/><veh:torque/></veh:engine><veh:economy xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:capacity/><veh:combinedFuelConsumption/></veh:economy><veh:capability xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:maximumSpeed/><veh:maximumPayload/></veh:capability><veh:terms xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:maintenancePlanDistance/><veh:maintenancePlanTime/><veh:warrantyPeriod/><veh:serviceIntervalDistance/><veh:retailPrice/></veh:terms></ns2:vehicleDetail><ns2:registrationNumber/><ns2:registrationType/></ns2:response></ns2:MotorVehicleQueryResponse></S:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 200
+
+####### RESPONSE TIME  : 1 Second(s)
+
+
+2023-11-16_15:51:00 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-11-16_15:51:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_15:51:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_15:51:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_15:51:00 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_15:51:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_15:51:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_15:51:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_15:51:00 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_15:51:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_15:51:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_15:51:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_15:51:00 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_15:51:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_15:51:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_15:51:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_15:51:00 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_15:51:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_15:51:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_15:51:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_15:51:00 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_15:51:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_15:51:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_15:51:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_15:51:00 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_15:51:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_15:51:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_15:51:00 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_15:51:00 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_16:05:46 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_16:05:46 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 request
+
+2023-11-16_16:05:46 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_16:05:46 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_16:05:46 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_16:05:47 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://qa.wesbank.co.za
+
+2023-11-16_16:05:47 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/eNatisMotorVehicleQuery/v1
+
+
+2023-11-16_16:05:47 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://wesbank.co.za/bus/vehicle/eNatis/motorVehicleQuery/v1">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v1:MotorVehicleQueryRequest>
+         <!--You have a CHOICE of the next 4 items at this level-->
+         <!--Optional:-->
+         <v1:RegisterNumber>85156007744</v1:RegisterNumber>
+         <!--Optional:-->
+         <v1:VinOrChassis>AHTD0000000000004</v1:VinOrChassis>
+         <!--Optional:-->
+         <v1:EngineNumber></v1:EngineNumber>
+         <!--Optional:-->
+         <v1:LicenceNumber>DJG054K</v1:LicenceNumber>
+      </v1:MotorVehicleQueryRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_16:05:50 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+		 #######CAUGHT EXCEPTION IN  METHOD ####### :
+
+
+							javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+2023-11-16_16:05:50 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Failed________________________________________________________________
+
+
+2023-11-16_16:05:51 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchMakes
+2023-11-16_16:05:51 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 request
+
+2023-11-16_16:05:51 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_16:05:51 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_16:05:51 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_16:05:51 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://qa.wesbank.co.za
+
+2023-11-16_16:05:51 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-16_16:05:51 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchMakesRequest/>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_16:05:51 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+		 #######CAUGHT EXCEPTION IN  METHOD ####### :
+
+
+							javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+2023-11-16_16:05:51 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Failed________________________________________________________________
+
+
+2023-11-16_16:05:51 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchMMCodeByVIN
+2023-11-16_16:05:51 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 request
+
+2023-11-16_16:05:51 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_16:05:51 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_16:05:51 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_16:05:51 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://qa.wesbank.co.za
+
+2023-11-16_16:05:51 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-16_16:05:51 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchMMCodeByVINRequest>
+         <v2:vin>AHTSS22P207140036</v2:vin>
+         <v2:customerIdentity>10044700260</v2:customerIdentity>
+         <!--Optional:-->
+         <v2:licensePlateNumber>XYZ123GP</v2:licensePlateNumber>
+      </v2:FetchMMCodeByVINRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_16:05:51 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+		 #######CAUGHT EXCEPTION IN  METHOD ####### :
+
+
+							javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+2023-11-16_16:05:51 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Failed________________________________________________________________
+
+
+2023-11-16_16:07:30 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_16:07:30 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 request
+
+2023-11-16_16:07:30 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_16:07:30 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_16:07:30 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_16:07:30 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-11-16_16:07:30 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/eNatisMotorVehicleQuery/v1
+
+
+2023-11-16_16:07:30 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://wesbank.co.za/bus/vehicle/eNatis/motorVehicleQuery/v1">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v1:MotorVehicleQueryRequest>
+         <!--You have a CHOICE of the next 4 items at this level-->
+         <!--Optional:-->
+         <v1:RegisterNumber>85156007744</v1:RegisterNumber>
+         <!--Optional:-->
+         <v1:VinOrChassis>AHTD0000000000004</v1:VinOrChassis>
+         <!--Optional:-->
+         <v1:EngineNumber></v1:EngineNumber>
+         <!--Optional:-->
+         <v1:LicenceNumber>DJG054K</v1:LicenceNumber>
+      </v1:MotorVehicleQueryRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_16:07:33 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header><wbh:WBHeader xmlns:wbh="http://www.wesbank.co.za/common/Header/v1_1/WBHeader"><wbh:MessageId>N53ebc04a.73466254.6.18bd8755e73.N8000</wbh:MessageId><wbh:CorrelationId>N53ebc04a.73466254.6.18bd8755e73.N8000</wbh:CorrelationId><wbh:ClientId/><wbh:Service/><wbh:Operation/><wbh:Version/><wbh:RequestedTimestamp/><wbh:ResponseTimestamp>2023-11-16T16:07:32.501+02:00</wbh:ResponseTimestamp></wbh:WBHeader></soapenv:Header><S:Body xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><ns2:MotorVehicleQueryResponse xmlns:ns2="http://wesbank.co.za/bus/vehicle/eNatis/motorVehicleQuery/v1"><ns2:executionResult><ns2:successful>false</ns2:successful><ns2:errorMessages><ns2:responsibleField>LicenceNumber</ns2:responsibleField><ns2:errorCode>BE033</ns2:errorCode><ns2:errorDescription>Motor vehicle does not exist</ns2:errorDescription></ns2:errorMessages></ns2:executionResult><ns2:response><ns2:vehicleDetail><veh:description xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:make><veh:code/></veh:make><veh:model><veh:code/></veh:model><veh:year/></veh:description><veh:dimensions xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"/><veh:physicalCharacteristics xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:type/><veh:numberOfDoors/><veh:wheelBase/><veh:axle/><veh:tyreSize><veh:position/><veh:profile/></veh:tyreSize></veh:physicalCharacteristics><veh:weight xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:tare/><veh:grossCurbMass/></veh:weight><veh:engine xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:numberOfCylinders/><veh:torque/></veh:engine><veh:economy xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:capacity/><veh:combinedFuelConsumption/></veh:economy><veh:capability xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:maximumSpeed/><veh:maximumPayload/></veh:capability><veh:terms xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:maintenancePlanDistance/><veh:maintenancePlanTime/><veh:warrantyPeriod/><veh:serviceIntervalDistance/><veh:retailPrice/></veh:terms></ns2:vehicleDetail><ns2:registrationNumber/><ns2:registrationType/></ns2:response></ns2:MotorVehicleQueryResponse></S:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 200
+
+####### RESPONSE TIME  : 1 Second(s)
+
+
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_16:07:34 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_16:07:34 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_16:07:34 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_16:07:34 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_16:07:34 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_16:07:34 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_16:07:34 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchMakes
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 request
+
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchMakesRequest/>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>OSB-380000</faultstring><detail><con:fault xmlns:con="http://www.bea.com/wli/sb/context"><con:errorCode>OSB-380000</con:errorCode><con:location><con:node>RouteNodeFetchMakes</con:node><con:path>response-pipeline</con:path></con:location></con:fault></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 500
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchMMCodeByVIN
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 request
+
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-16_16:07:34 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchMMCodeByVINRequest>
+         <v2:vin>AHTSS22P207140036</v2:vin>
+         <v2:customerIdentity>10044700260</v2:customerIdentity>
+         <!--Optional:-->
+         <v2:licensePlateNumber>XYZ123GP</v2:licensePlateNumber>
+      </v2:FetchMMCodeByVINRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header><wbh:WBHeader xmlns:wbh="http://www.wesbank.co.za/common/Header/v1_1/WBHeader"><wbh:MessageId>N53ebc04a.7b8b8d88.35.18bd870f72b.N7feb</wbh:MessageId><wbh:CorrelationId>N53ebc04a.7b8b8d88.35.18bd870f72b.N7feb</wbh:CorrelationId><wbh:ClientId/><wbh:Service/><wbh:Operation/><wbh:Version/><wbh:RequestedTimestamp/><wbh:ResponseTimestamp>2023-11-16T16:07:34.390+02:00</wbh:ResponseTimestamp></wbh:WBHeader></soapenv:Header><S:Body xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><v2:FetchMMCodeByVINResponse xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2"><v2:errorMessage><v2:errorCode>Yes</v2:errorCode><v2:errorDesc>Match not found</v2:errorDesc></v2:errorMessage></v2:FetchMMCodeByVINResponse></S:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 200
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchModels
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 request
+
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchModelsRequest>
+         <v2:makeCode>850</v2:makeCode>
+      </v2:FetchModelsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>OSB-380000</faultstring><detail><con:fault xmlns:con="http://www.bea.com/wli/sb/context"><con:errorCode>OSB-380000</con:errorCode><con:location><con:node>RouteNodeFetchModels</con:node><con:path>response-pipeline</con:path></con:location></con:fault></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 500
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchModelValue
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 request
+
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2" xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchModelValueRequest>
+         <!--Optional:-->
+         <v2:make>
+            <!--Optional:-->
+            <veh:categoryCode></veh:categoryCode>
+            <!--Optional:-->
+            <veh:makeCode>600</veh:makeCode>
+            <veh:modelCode>2160</veh:modelCode>
+            <!--Optional:-->
+            <veh:modelDescription>TOYOTA</veh:modelDescription>
+         </v2:make>
+         <!--Optional:-->
+         <v2:model>
+            <!--Optional:-->
+            <veh:categoryCode></veh:categoryCode>
+            <!--Optional:-->
+            <veh:makeCode>600</veh:makeCode>
+            <veh:modelCode>2160</veh:modelCode>
+            <!--Optional:-->
+            <veh:modelDescription>TOYOTA</veh:modelDescription>
+         </v2:model>
+         <!--Optional:-->
+         <v2:year>
+            <!--Optional:-->
+            <veh:categoryCode></veh:categoryCode>
+            <!--Optional:-->
+            <veh:makeCode>600</veh:makeCode>
+            <veh:modelCode>2160</veh:modelCode>
+            <!--Optional:-->
+            <veh:modelDescription>TOYOTA</veh:modelDescription>
+         </v2:year>
+         <!--Optional:-->
+         <v2:carCondition>good</v2:carCondition>
+         <!--Optional:-->
+         <v2:goodsCode></v2:goodsCode>
+         <!--Optional:-->
+         <v2:mileage>50000</v2:mileage>
+      </v2:FetchModelValueRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>OSB-380000</faultstring><detail><con:fault xmlns:con="http://www.bea.com/wli/sb/context"><con:errorCode>OSB-380000</con:errorCode><con:location><con:node>RouteNodeFetchModelValue</con:node><con:path>response-pipeline</con:path></con:location></con:fault></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 500
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchModelYears
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : F5 request
+
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-16_16:07:35 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchModelYearsRequest>
+         <v2:makeCode>600</v2:makeCode>
+         <v2:modelCode>2160</v2:modelCode>
+      </v2:FetchModelYearsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_16:07:36 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>OSB-380000</faultstring><detail><con:fault xmlns:con="http://www.bea.com/wli/sb/context"><con:errorCode>OSB-380000</con:errorCode><con:location><con:node>RouteNodeFetchModelYears</con:node><con:path>response-pipeline</con:path></con:location></con:fault></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 500
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-11-16_16:07:36 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-11-16_18:39:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_18:39:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : OSBS-QA request
+
+2023-11-16_18:39:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_18:39:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_18:39:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_18:39:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-11-16_18:39:24 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/eNatisMotorVehicleQuery/v1
+
+
+2023-11-16_18:39:24 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://wesbank.co.za/bus/vehicle/eNatis/motorVehicleQuery/v1">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v1:MotorVehicleQueryRequest>
+         <!--You have a CHOICE of the next 4 items at this level-->
+         <!--Optional:-->
+         <v1:RegisterNumber>85156007744</v1:RegisterNumber>
+         <!--Optional:-->
+         <v1:VinOrChassis>AHTD0000000000004</v1:VinOrChassis>
+         <!--Optional:-->
+         <v1:EngineNumber></v1:EngineNumber>
+         <!--Optional:-->
+         <v1:LicenceNumber>DJG054K</v1:LicenceNumber>
+      </v1:MotorVehicleQueryRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_18:39:26 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header><wbh:WBHeader xmlns:wbh="http://www.wesbank.co.za/common/Header/v1_1/WBHeader"><wbh:MessageId>N53ebc04a.73466254.10.18bd8fce82a.N7fff</wbh:MessageId><wbh:CorrelationId>N53ebc04a.73466254.10.18bd8fce82a.N7fff</wbh:CorrelationId><wbh:ClientId/><wbh:Service/><wbh:Operation/><wbh:Version/><wbh:RequestedTimestamp/><wbh:ResponseTimestamp>2023-11-16T18:39:25.551+02:00</wbh:ResponseTimestamp></wbh:WBHeader></soapenv:Header><S:Body xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><ns2:MotorVehicleQueryResponse xmlns:ns2="http://wesbank.co.za/bus/vehicle/eNatis/motorVehicleQuery/v1"><ns2:executionResult><ns2:successful>false</ns2:successful><ns2:errorMessages><ns2:responsibleField>LicenceNumber</ns2:responsibleField><ns2:errorCode>BE033</ns2:errorCode><ns2:errorDescription>Motor vehicle does not exist</ns2:errorDescription></ns2:errorMessages></ns2:executionResult><ns2:response><ns2:vehicleDetail><veh:description xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:make><veh:code/></veh:make><veh:model><veh:code/></veh:model><veh:year/></veh:description><veh:dimensions xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"/><veh:physicalCharacteristics xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:type/><veh:numberOfDoors/><veh:wheelBase/><veh:axle/><veh:tyreSize><veh:position/><veh:profile/></veh:tyreSize></veh:physicalCharacteristics><veh:weight xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:tare/><veh:grossCurbMass/></veh:weight><veh:engine xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:numberOfCylinders/><veh:torque/></veh:engine><veh:economy xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:capacity/><veh:combinedFuelConsumption/></veh:economy><veh:capability xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:maximumSpeed/><veh:maximumPayload/></veh:capability><veh:terms xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v1_0/vehicle"><veh:maintenancePlanDistance/><veh:maintenancePlanTime/><veh:warrantyPeriod/><veh:serviceIntervalDistance/><veh:retailPrice/></veh:terms></ns2:vehicleDetail><ns2:registrationNumber/><ns2:registrationType/></ns2:response></ns2:MotorVehicleQueryResponse></S:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 200
+
+####### RESPONSE TIME  : 1 Second(s)
+
+
+2023-11-16_18:39:26 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-11-16_18:39:26 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_18:39:26 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_18:39:26 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_18:39:26 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_18:39:26 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_18:39:26 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_18:39:26 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_18:39:26 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_18:39:26 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_18:39:26 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_18:39:26 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_18:39:26 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_18:39:26 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_18:39:26 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_18:39:26 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_18:39:26 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_18:39:27 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_18:39:27 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : eNatisMotorVehicleQuery
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : Negative Request 
+
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_18:39:27 [main] INFO  wesbank.integration.steps.Scenario - Skipping scenario : Negative Request 
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchMakes
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : OSBS-QA request
+
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchMakesRequest/>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>OSB-380000</faultstring><detail><con:fault xmlns:con="http://www.bea.com/wli/sb/context"><con:errorCode>OSB-380000</con:errorCode><con:location><con:node>RouteNodeFetchMakes</con:node><con:path>response-pipeline</con:path></con:location></con:fault></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 500
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchMMCodeByVIN
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : OSBS-QA request
+
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchMMCodeByVINRequest>
+         <v2:vin>AHTSS22P207140036</v2:vin>
+         <v2:customerIdentity>10044700260</v2:customerIdentity>
+         <!--Optional:-->
+         <v2:licensePlateNumber>XYZ123GP</v2:licensePlateNumber>
+      </v2:FetchMMCodeByVINRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header><wbh:WBHeader xmlns:wbh="http://www.wesbank.co.za/common/Header/v1_1/WBHeader"><wbh:MessageId>N53ebc049.b29a5c4.3e.18bd8ff3221.N7fff</wbh:MessageId><wbh:CorrelationId>N53ebc049.b29a5c4.3e.18bd8ff3221.N7fff</wbh:CorrelationId><wbh:ClientId/><wbh:Service/><wbh:Operation/><wbh:Version/><wbh:RequestedTimestamp/><wbh:ResponseTimestamp>2023-11-16T18:39:26.841+02:00</wbh:ResponseTimestamp></wbh:WBHeader></soapenv:Header><S:Body xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><v2:FetchMMCodeByVINResponse xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2"><v2:errorMessage><v2:errorCode>Yes</v2:errorCode><v2:errorDesc>Match not found</v2:errorDesc></v2:errorMessage></v2:FetchMMCodeByVINResponse></S:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 200
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchModels
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : OSBS-QA request
+
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchModelsRequest>
+         <v2:makeCode>850</v2:makeCode>
+      </v2:FetchModelsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>OSB-380000</faultstring><detail><con:fault xmlns:con="http://www.bea.com/wli/sb/context"><con:errorCode>OSB-380000</con:errorCode><con:location><con:node>RouteNodeFetchModels</con:node><con:path>response-pipeline</con:path></con:location></con:fault></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 500
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-11-16_18:39:27 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-11-16_18:39:28 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchModelValue
+2023-11-16_18:39:28 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : OSBS-QA request
+
+2023-11-16_18:39:28 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_18:39:28 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_18:39:28 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_18:39:28 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-11-16_18:39:28 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-16_18:39:28 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2" xmlns:veh="http://wesbank.co.za/model/unified/vehicle/v2_0/vehicle">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchModelValueRequest>
+         <!--Optional:-->
+         <v2:make>
+            <!--Optional:-->
+            <veh:categoryCode></veh:categoryCode>
+            <!--Optional:-->
+            <veh:makeCode>600</veh:makeCode>
+            <veh:modelCode>2160</veh:modelCode>
+            <!--Optional:-->
+            <veh:modelDescription>TOYOTA</veh:modelDescription>
+         </v2:make>
+         <!--Optional:-->
+         <v2:model>
+            <!--Optional:-->
+            <veh:categoryCode></veh:categoryCode>
+            <!--Optional:-->
+            <veh:makeCode>600</veh:makeCode>
+            <veh:modelCode>2160</veh:modelCode>
+            <!--Optional:-->
+            <veh:modelDescription>TOYOTA</veh:modelDescription>
+         </v2:model>
+         <!--Optional:-->
+         <v2:year>
+            <!--Optional:-->
+            <veh:categoryCode></veh:categoryCode>
+            <!--Optional:-->
+            <veh:makeCode>600</veh:makeCode>
+            <veh:modelCode>2160</veh:modelCode>
+            <!--Optional:-->
+            <veh:modelDescription>TOYOTA</veh:modelDescription>
+         </v2:year>
+         <!--Optional:-->
+         <v2:carCondition>good</v2:carCondition>
+         <!--Optional:-->
+         <v2:goodsCode></v2:goodsCode>
+         <!--Optional:-->
+         <v2:mileage>50000</v2:mileage>
+      </v2:FetchModelValueRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_18:39:28 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>OSB-380000</faultstring><detail><con:fault xmlns:con="http://www.bea.com/wli/sb/context"><con:errorCode>OSB-380000</con:errorCode><con:location><con:node>RouteNodeFetchModelValue</con:node><con:path>response-pipeline</con:path></con:location></con:fault></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 500
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-11-16_18:39:28 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+
+2023-11-16_18:39:28 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SERVICE   : FetchModelYears
+2023-11-16_18:39:28 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### SCENARIO  : OSBS-QA request
+
+2023-11-16_18:39:28 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### BDDSyntax : Given The service is up and running, when the endpoint is envoked with valid payload, then  response should be shown as per scenario
+
+
+
+2023-11-16_18:39:28 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Content-Type = text/xml 
+					
+ 
+2023-11-16_18:39:28 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### HEADER    : Accept = text/xml 
+					
+ 
+2023-11-16_18:39:28 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### baseURI   : https://osbsqa.wesbank.co.za
+
+2023-11-16_18:39:28 [main] DEBUG wesbank.integration.steps.Scenario - 		 ####### basePath  : /wesbank_external/bus/vehicle/fetchVehicleMakesModelsAndYears/v1_2
+
+
+2023-11-16_18:39:28 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### REQUEST BODY ####### 
+				
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchModelYearsRequest>
+         <v2:makeCode>600</v2:makeCode>
+         <v2:modelCode>2160</v2:modelCode>
+      </v2:FetchModelYearsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+2023-11-16_18:39:28 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+
+####### RESPONSE BODY ####### 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>OSB-380000</faultstring><detail><con:fault xmlns:con="http://www.bea.com/wli/sb/context"><con:errorCode>OSB-380000</con:errorCode><con:location><con:node>RouteNodeFetchModelYears</con:node><con:path>response-pipeline</con:path></con:location></con:fault></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+
+
+####### RESPONSE CODE  : 500
+
+####### RESPONSE TIME  : 0 Second(s)
+
+
+2023-11-16_18:39:28 [main] DEBUG wesbank.integration.steps.Scenario - 
+
+_______________________________________________________________Test Completed_______________________________________________________________
+
+

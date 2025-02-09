@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:int="http://integrationservices.co.za/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <int:getObjectivesDetail>
+         <int:objectivesID>robjectivesID</int:objectivesID>
+         <int:businessGroupID>rbusinessGroupID</int:businessGroupID>
+      </int:getObjectivesDetail>
+   </soapenv:Body>
+</soapenv:Envelope>

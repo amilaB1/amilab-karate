@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:getWBMasterEmployeeInformation>
+         <!--Optional:-->
+         <tem:employeeNumber>remployeeNumber</tem:employeeNumber>
+         <!--Optional:-->
+         <tem:businessGroupName>rbusinessGroupName</tem:businessGroupName>
+      </tem:getWBMasterEmployeeInformation>
+   </soapenv:Body>
+</soapenv:Envelope>

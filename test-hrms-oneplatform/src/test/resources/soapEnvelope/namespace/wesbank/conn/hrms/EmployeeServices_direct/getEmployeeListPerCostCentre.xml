@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:int="http://integrationservices.co.za/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <int:getEmployeeListPerCostCentre>
+         <!--Optional:-->
+         <int:companyCode>rcompanyCode</int:companyCode>
+         <!--Optional:-->
+         <int:costCentreCode>rcostCentreCode</int:costCentreCode>
+         <!--Optional:-->
+         <int:businessGroupName>rbusinessGroupName</int:businessGroupName>
+      </int:getEmployeeListPerCostCentre>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:int="http://integrationservices.co.za/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <int:getDelegateAuthorityPerDate>
+         <!--Optional:-->
+         <int:fromDate>rfromDate</int:fromDate>
+         <!--Optional:-->
+         <int:toDate>rtoDate</int:toDate>
+      </int:getDelegateAuthorityPerDate>
+   </soapenv:Body>
+</soapenv:Envelope>

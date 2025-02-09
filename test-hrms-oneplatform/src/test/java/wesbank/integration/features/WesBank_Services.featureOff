@@ -1,0 +1,28 @@
+Feature: Generic
+  This is a generic feature file that can be used to test multiple XML features.
+
+  Scenario Outline: Basic XML SOAP request & response.
+    Given That HRMS_Services ( <serviceName> ) service is up and running
+
+    Examples: 
+      | serviceName                         |
+      
+      
+      | "WB_createOrUpdateEmployee"         |
+      | "WB_getAllLearnerRecords"           |
+      | "WB_getDelegateAuthorityPerDate"    |
+      | "WB_getDelegateAuthorityPerGrantor" |
+      | "WB_getEmpTerminations"             |
+      | "WB_getEmpTransfers"                |
+      | "WB_getLearnerRecordsSince"         |
+      | "WB_getLearnerRecordsSinceUnix"     |
+      | "WB_getMyAccessEmpOnLeavePerDate"   |
+      | "WB_getMyAccessLeaveForEmployee"    |
+      | "WB_getWBEmpBasicAccess"            |
+      | "WB_getWBEmployeesOnLeavePerDate"   |
+      | "WB_getWBLeaveForEmployee"          |
+      | "WB_getWBMasterEmployeeInfo"        |
+      | "WB_getWBMyAccessOrgs"              |
+      | "WB_getWBMyAccessStaging"           |
+      | "WB_getWBRecruitmentDetails"        |
+      | "WB_getWBRecruitmentDetailsByID"    |
