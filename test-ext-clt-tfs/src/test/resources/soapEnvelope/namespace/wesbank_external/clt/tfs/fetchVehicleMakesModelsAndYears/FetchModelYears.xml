@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.wesbank.co.za/bus/vehicle/FetchMakesAndModel/v2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v2:FetchModelYearsRequest>
+         <v2:makeCode>RmakeCode</v2:makeCode>
+         <v2:modelCode>RmodelCode</v2:modelCode>
+      </v2:FetchModelYearsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

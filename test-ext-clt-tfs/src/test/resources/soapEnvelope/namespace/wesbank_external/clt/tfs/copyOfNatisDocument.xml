@@ -1,0 +1,47 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wbh="http://www.wesbank.co.za/common/Header/v1_1/WBHeader" xmlns:get="http://www.wesbank.co.za/SOA/Account/v1_2/getCopyOfNatisDocument">
+   <soapenv:Header>
+      <wbh:WBHeader>
+         <wbh:MessageId>auto-test</wbh:MessageId>
+         <!--Optional:-->
+         <wbh:CorrelationId>auto-test</wbh:CorrelationId>
+         <!--Optional:-->
+         <wbh:InternalMessageId></wbh:InternalMessageId>
+         <!--Optional:-->
+         <wbh:ClientId>0x1e6f2600</wbh:ClientId>
+         <!--Optional:-->
+         <wbh:Service></wbh:Service>
+         <!--Optional:-->
+         <wbh:Operation></wbh:Operation>
+         <!--Optional:-->
+         <wbh:Version></wbh:Version>
+         <!--Optional:-->
+         <wbh:UserId></wbh:UserId>
+         <!--Optional:-->
+         <wbh:RequestedTimestamp></wbh:RequestedTimestamp>
+         <!--Optional:-->
+         <wbh:ResponseTimestamp></wbh:ResponseTimestamp>
+         <!--Zero or more repetitions:-->
+         <wbh:BusinessKey></wbh:BusinessKey>
+      </wbh:WBHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <get:copyOfNatisReq>
+         <get:copyOfNatisInputs>
+            <!--Optional:-->
+            <get:customerIDNumber>rcustomerIDNumber</get:customerIDNumber>
+            <!--Optional:-->
+            <get:accountNumber>raccountNumber</get:accountNumber>
+            <!--Optional:-->
+            <get:vehicleRegNumber>rvehicleRegNumber</get:vehicleRegNumber>
+            <!--Optional:-->
+            <get:natisRegisterNumber>rnatisRegisterNumber</get:natisRegisterNumber>
+            <!--Optional:-->
+            <get:financeCompany>rfinanceCompany</get:financeCompany>
+            <!--Optional:-->
+            <get:dealerName>rdealerName</get:dealerName>
+            <!--Optional:-->
+            <get:dealerCode>rdealerCode</get:dealerCode>
+         </get:copyOfNatisInputs>
+      </get:copyOfNatisReq>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,27 @@
+<soapenv_Envelope xmlns_soapenv="http_//schemas.xmlsoap.org/soap/envelope/" xmlns_v1="http_//v1.webservice.services.wesbank.co.za/">
+   <soapenv_Header/>
+   <soapenv_Body>
+      <v1_leasingFinanceQuoteRequest>
+         <!--Optional_-->
+         <vistaCode>rvistaCode</vistaCode>
+         <!--Optional_-->
+         <productID>rproductID</productID>
+         <!--Optional_-->
+         <isinsiteid>risinsiteid</isinsiteid>
+         <!--Optional_-->
+         <productType>rproductType</productType>
+         <term>rterm</term>
+         <mileage>rmileage</mileage>
+         <!--Optional_-->
+         <interestRate>rinterestRate</interestRate>
+         <!--Optional_-->
+         <deposit>rdeposit</deposit>
+         <!--Optional_-->
+         <balloonPerc>rballoonPerc</balloonPerc>
+         <!--Optional_-->
+         <vehiclePrice>rvehiclePrice</vehiclePrice>
+         <!--Optional_-->
+         <optionPrice>roptionPrice</optionPrice>
+      </v1_leasingFinanceQuoteRequest>
+   </soapenv_Body>
+</soapenv_Envelope>

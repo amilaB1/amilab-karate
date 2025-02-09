@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://v1.webservice.services.wesbank.co.za/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v1:vehicleLabelRequest>
+         <!--Optional:-->
+         <productID>RproductID</productID>
+         <!--Optional:-->
+         <isinsiteid>Risinsiteid</isinsiteid>
+      </v1:vehicleLabelRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
